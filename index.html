@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>泠沨 · LingFengCW</title>
-  <meta name="description" content="LingFengCW（泠沨）—— 中国独立开发者。游戏、Minecraft 模组、桌面应用与开发工具作品集。清冷流水，凝而成沨。">
+  <meta name="description" content="LingFengCW（泠沨）—— 独立开发者。游戏、Minecraft 模组、桌面应用作品集。清冷流水，凝而成沨。">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <!-- 背景巨字水印（漂移文字特效） -->
+  <div class="watermark" aria-hidden="true">清冷流水</div>
+
   <!-- 顶部导航 -->
   <header class="nav" id="nav">
     <a class="nav-brand" href="#top">
@@ -41,14 +44,13 @@
       </svg>
     </div>
     <div class="hero-inner">
-      <p class="hero-kicker" data-i18n="hero.kicker">LingFengCW · 中国独立开发者</p>
-      <h1 class="hero-title">泠沨</h1>
-      <p class="hero-sub" data-i18n="hero.sub">清冷流水，凝而成沨。这里收录我做过的游戏、Minecraft 模组与桌面应用。</p>
+      <p class="hero-kicker reveal" data-i18n="hero.kicker">LingFengCW · 开发者</p>
+      <h1 class="hero-title"><span class="ht-char">泠</span><span class="ht-char">沨</span></h1>
+      <p class="hero-sub reveal" data-i18n="hero.sub">清冷流水，凝而成沨。这里收录我做过的游戏、Minecraft 模组与桌面应用。</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#works" data-i18n="hero.btnWorks">浏览作品</a>
         <a class="btn btn-ghost" href="https://github.com/LingFengCW" target="_blank" rel="noopener" data-i18n="hero.btnGithub">访问 GitHub</a>
       </div>
-      <div class="hero-seal" title="中国 · 独立开发者">華</div>
     </div>
   </section>
 
@@ -56,26 +58,26 @@
   <section class="section" id="about">
     <div class="section-head">
       <span class="section-index">01</span>
-      <h2 data-i18n="about.heading">关于</h2>
+      <h2 class="reveal" data-i18n="about.heading">关于</h2>
     </div>
     <div class="about-grid">
       <div class="about-text">
-        <p data-i18n="about.p1">我是 <strong>泠沨（LingFengCW）</strong>，一名中国独立开发者，偏爱从零搭建完整的软件与游戏。</p>
-        <p data-i18n="about.p2">我的项目有一个统一的命名规则：<strong>全部以「泠」字起头，搭配一个水部汉字</strong>——泠浅、泠泩、泠瀄、泠㴓、泠𬇖、泠瀑……取「清冷流水、绵延不绝」之意。本站点同样沿用这一约定，名为「泠沨」。</p>
+        <p class="reveal" data-i18n="about.p1">我是 <strong>泠沨（LingFengCW）</strong>，一名开发者，偏爱从零搭建完整的软件与游戏。</p>
+        <p class="reveal" data-i18n="about.p2">我的项目有一个统一的命名规则：<strong>全部以「泠」字起头，搭配一个水部汉字</strong>——泠浅、泠泩、泠瀄、泠㴓、泠𬇖、泠瀑……取「清冷流水、绵延不绝」之意。本站点同样沿用这一约定，名为「泠沨」。</p>
       </div>
       <ul class="stat-list">
-        <li><span class="stat-num" data-count="6">6</span><span class="stat-label" data-i18n="stat.projects">泠系主项目</span></li>
-        <li><span class="stat-num" data-count="4">4</span><span class="stat-label" data-i18n="stat.tech">技术栈方向</span></li>
-        <li><span class="stat-num" data-count="100">100</span><span class="stat-label" data-i18n="stat.hand">% 手写实现</span></li>
+        <li class="reveal"><span class="stat-num" data-count="6">6</span><span class="stat-label" data-i18n="stat.projects">泠系主项目</span></li>
+        <li class="reveal"><span class="stat-num" data-count="4">4</span><span class="stat-label" data-i18n="stat.tech">技术栈方向</span></li>
+        <li class="reveal"><span class="stat-num" data-count="100">100</span><span class="stat-label" data-i18n="stat.hand">% 手写实现</span></li>
       </ul>
     </div>
   </section>
 
   <!-- 作品 -->
-  <section class="section" id="works">
+  <section class="section works-section" id="works">
     <div class="section-head">
       <span class="section-index">02</span>
-      <h2 data-i18n="works.heading">作品 · 泠系项目</h2>
+      <h2 class="reveal" data-i18n="works.heading">作品 · 泠系项目</h2>
     </div>
     <div class="filter-bar" id="filterBar">
       <button class="chip active" data-filter="all" data-i18n="filter.all">全部</button>
@@ -88,6 +90,7 @@
 
   <!-- 上善若水 · 滚动文字动画（始终为中文） -->
   <section class="ink-section" id="ink">
+    <div class="ink-ripple" aria-hidden="true"></div>
     <div class="ink-chars" aria-label="上善若水">
       <span class="ink-char">上</span>
       <span class="ink-char">善</span>
@@ -102,7 +105,7 @@
     <div class="footer-inner">
       <div>
         <span class="brand-mark sm">泠</span><span class="brand-text">泠沨</span>
-        <p class="footer-note" data-i18n="footer.note">LingFengCW 个人作品集 · 中国独立开发者</p>
+        <p class="footer-note" data-i18n="footer.note">LingFengCW 个人作品集 · 开发者</p>
       </div>
       <div class="footer-links">
         <a href="https://github.com/LingFengCW" target="_blank" rel="noopener">GitHub</a>

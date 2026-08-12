@@ -6,11 +6,11 @@
   const I18N = {
     zh: {
       "nav.about": "关于", "nav.works": "作品",
-      "hero.kicker": "LingFengCW · 中国独立开发者",
+      "hero.kicker": "LingFengCW · 开发者",
       "hero.sub": "清冷流水，凝而成沨。这里收录我做过的游戏、Minecraft 模组与桌面应用。",
       "hero.btnWorks": "浏览作品", "hero.btnGithub": "访问 GitHub",
       "about.heading": "关于",
-      "about.p1": "我是 <strong>泠沨（LingFengCW）</strong>，一名中国独立开发者，偏爱从零搭建完整的软件与游戏。",
+      "about.p1": "我是 <strong>泠沨（LingFengCW）</strong>，一名开发者，偏爱从零搭建完整的软件与游戏。",
       "about.p2": "我的项目有一个统一的命名规则：<strong>全部以「泠」字起头，搭配一个水部汉字</strong>——泠浅、泠泩、泠瀄、泠㴓、泠𬇖、泠瀑……取「清冷流水、绵延不绝」之意。本站点同样沿用这一约定，名为「泠沨」。",
       "stat.projects": "泠系主项目", "stat.tech": "技术栈方向", "stat.hand": "% 手写实现",
       "works.heading": "作品 · 泠系项目",
@@ -18,16 +18,16 @@
       "empty": "该分类下暂无项目。",
       "card.view": "查看项目 →", "card.local": "源码托管于本地", "card.dl": "⬇ 下载最新版",
       "ink.caption": "上善若水 · 出自《道德经》",
-      "footer.note": "LingFengCW 个人作品集 · 中国独立开发者",
+      "footer.note": "LingFengCW 个人作品集 · 开发者",
       "footer.top": "回到顶部", "footer.by": "由 泠潮（AI 软件工程师）协助构建"
     },
     en: {
       "nav.about": "About", "nav.works": "Works",
-      "hero.kicker": "LingFengCW · Chinese Independent Developer",
+      "hero.kicker": "LingFengCW · Developer",
       "hero.sub": "Cold, clear water condenses into ripples. This is where I keep the games, Minecraft mods, and desktop apps I've built.",
       "hero.btnWorks": "View Works", "hero.btnGithub": "GitHub",
       "about.heading": "About",
-      "about.p1": "I'm <strong>LingFengCW (LingFeng)</strong>, a Chinese independent developer who prefers building complete software and games from scratch.",
+      "about.p1": "I'm <strong>LingFengCW (LingFeng)</strong>, a developer who prefers building complete software and games from scratch.",
       "about.p2": "My projects follow one naming rule: each begins with the character 泠 paired with a water-radical character — 泠浅, 泠泩, 泠瀄, 泠㴓, 泠𬇖, 泠瀑 — evoking 'clear, cold, ever-flowing water.' This site follows the same rule and is named 泠沨.",
       "stat.projects": "Ling-series Projects", "stat.tech": "Tech Stacks", "stat.hand": "% Handcrafted",
       "works.heading": "Works · Ling Series",
@@ -35,7 +35,7 @@
       "empty": "No projects in this category.",
       "card.view": "View Project →", "card.local": "Local Source", "card.dl": "⬇ Download Latest",
       "ink.caption": "The highest good is like water — Laozi",
-      "footer.note": "LingFengCW Portfolio · Chinese Independent Developer",
+      "footer.note": "LingFengCW Portfolio · Developer",
       "footer.top": "Back to Top", "footer.by": "Built with 泠潮 (AI Software Engineer)"
     }
   };
@@ -205,9 +205,19 @@
     bubbles.appendChild(b);
   }
 
-  // ---------- 上善若水：滚动逐字动画（始终中文） ----------
+  // ---------- 滚动揭示：.reveal 与章节标题下划线 ----------
+  const revealEls = document.querySelectorAll(".reveal, .section-head h2");
+  const revealIO = new IntersectionObserver(entries => {
+    entries.forEach(en => {
+      if (en.isIntersecting) { en.target.classList.add("in"); revealIO.unobserve(en.target); }
+    });
+  }, { threshold: 0.25 });
+  revealEls.forEach(el => revealIO.observe(el));
+
+  // ---------- 上善若水：滚动逐字动画（始终中文）+ 涟漪 ----------
   const inkChars = document.querySelectorAll(".ink-char");
   const inkCaption = document.querySelector(".ink-caption");
+  const inkRipple = document.querySelector(".ink-ripple");
   const inkIO = new IntersectionObserver(entries => {
     entries.forEach(en => {
       if (en.isIntersecting) {
@@ -220,6 +230,20 @@
   }, { threshold: 0.4 });
   inkChars.forEach(c => inkIO.observe(c));
   if (inkCaption) inkIO.observe(inkCaption);
+  if (inkRipple) {
+    const ripIO = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting) {
+          // 重复触发：先清后加，使动画重播
+          inkRipple.classList.remove("go");
+          void inkRipple.offsetWidth;
+          inkRipple.classList.add("go");
+          ripIO.unobserve(en.target);
+        }
+      });
+    }, { threshold: 0.35 });
+    ripIO.observe(inkRipple);
+  }
 
   // ---------- 数字递增 ----------
   const stats = document.querySelectorAll(".stat-num");
