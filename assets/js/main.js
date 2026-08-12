@@ -1,4 +1,4 @@
-// 泠澜 · LingFengCW 作品集 —— 站点交互
+// 泠沨 · LingFengCW 作品集 —— 站点交互
 (function () {
   "use strict";
 
@@ -10,7 +10,8 @@
       statusText: "活跃维护",
       desc: "在 Minecraft 26.2（Fabric）中制作动画与电影：关键帧动画、形态系统、电影级运镜、动作录制。继承自 McHorse 的 BBS mod，由 LingFengCW 维护。",
       tags: ["Java", "Fabric", "Gradle", "MCEF/Chromium"],
-      url: "https://github.com/LingFengCW/Blockbuster-Studio-Next"
+      url: "https://github.com/LingFengCW/Blockbuster-Studio-Next",
+      release: "https://github.com/LingFengCW/Blockbuster-Studio-Next/releases/latest"
     },
     {
       glyph: "浅", name: "泠浅", en: "文明沙盘 · Civilization Sandbox",
@@ -75,6 +76,9 @@
       const link = p.url
         ? `<a class="card-link" href="${p.url}" target="_blank" rel="noopener">查看项目 →</a>`
         : `<span class="card-link disabled">源码托管于本地</span>`;
+      const dl = p.release
+        ? `<a class="card-link dl" href="${p.release}" target="_blank" rel="noopener">⬇ 下载最新版</a>`
+        : "";
       const card = document.createElement("article");
       card.className = "card";
       card.style.animationDelay = (i * 0.06) + "s";
@@ -87,7 +91,7 @@
         <div class="card-type">${p.type}</div>
         <p class="card-desc">${p.desc}</p>
         <div class="tags">${p.tags.map(t => `<span class="tag">${t}</span>`).join("")}</div>
-        ${link}
+        <div class="card-actions">${link}${dl}</div>
       `;
       cardsEl.appendChild(card);
     });
