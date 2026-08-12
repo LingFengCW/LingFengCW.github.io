@@ -135,10 +135,10 @@
     }
     list.forEach((p, i) => {
       const link = p.url
-        ? `<a class="card-link" href="${p.url}" target="_blank" rel="noopener">${I18N[lang].card.view}</a>`
-        : `<span class="card-link disabled">${I18N[lang].card.local}</span>`;
+        ? `<a class="card-link" href="${p.url}" target="_blank" rel="noopener">${I18N[lang]["card.view"]}</a>`
+        : `<span class="card-link disabled">${I18N[lang]["card.local"]}</span>`;
       const dl = p.release
-        ? `<a class="card-link dl" href="${p.release}" target="_blank" rel="noopener">${I18N[lang].card.dl}</a>`
+        ? `<a class="card-link dl" href="${p.release}" target="_blank" rel="noopener">${I18N[lang]["card.dl"]}</a>`
         : "";
       const card = document.createElement("article");
       card.className = "card enter";
