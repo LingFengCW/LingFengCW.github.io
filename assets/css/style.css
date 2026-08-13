@@ -149,7 +149,6 @@ body{
 }
 @keyframes titleShimmer{from{background-position:0% 0}to{background-position:220% 0}}
 .hero-sub{font-size:clamp(16px,2.4vw,21px);color:var(--ink-soft);margin-bottom:32px}
-.hero-tagline{font-size:clamp(13px,2vw,17px);letter-spacing:.34em;text-transform:uppercase;color:var(--ling-mid);font-weight:700;margin:-2px 0 18px}
 .hero-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 .btn{
   display:inline-block;padding:13px 28px;border-radius:999px;font-size:15px;font-weight:600;

@@ -7,12 +7,11 @@
     zh: {
       "nav.about": "关于", "nav.works": "作品",
       "hero.kicker": "LingFengCW · 开发者",
-      "hero.tagline": "LingFengCW 的个人作品集",
       "hero.sub": "清冷流水，凝而成沨。这里收录我做过的游戏、Minecraft 模组与桌面应用。",
       "hero.btnWorks": "浏览作品", "hero.btnGithub": "访问 GitHub",
       "about.heading": "关于",
       "about.p1": "我是 <strong>泠沨（LingFengCW）</strong>，一名开发者，偏爱从零搭建完整的软件与游戏。",
-      "about.p2": "我的项目有一个统一的命名规则：<strong>全部以「泠」字起头，搭配一个水部汉字</strong>——泠浅、泠泩、泠瀄、泠㴓、泠𬇖、泠瀑……取「清冷流水、绵延不绝」之意。本站点同样沿用这一约定，名为「泠沨」。",
+      "about.p2": "我的项目有一个统一的命名规则：<strong>全部以「泠」字起头，搭配一个水部汉字</strong>——泠浅、泠泩、泠瀄、泠㴓、泠𬇖、泠瀑……取「清冷流水、绵延不绝」之意。",
       "about.p3": "我生于 <strong>2015 年 4 月 22 日</strong>，今年 11 岁。",
       "works.lead": "六个以「泠」为名的项目——从游戏、模组到桌面应用，皆由我手写构建。",
       "stat.projects": "泠系主项目", "stat.tech": "技术栈方向", "stat.hand": "% 手写实现",
@@ -21,18 +20,17 @@
       "empty": "该分类下暂无项目。",
       "card.view": "查看项目 →", "card.local": "源码托管于本地", "card.dl": "⬇ 下载最新版",
       "ink.caption": "上善若水 · 出自《道德经》",
-      "footer.note": "LingFengCW 个人作品集 · 开发者",
+      "footer.note": "LingFengCW · 开发者",
       "footer.top": "回到顶部", "footer.by": "由 泠潮（AI 软件工程师）协助构建"
     },
     en: {
       "nav.about": "About", "nav.works": "Works",
       "hero.kicker": "LingFengCW · Developer",
-      "hero.tagline": "LingFengCW's Personal Portfolio",
       "hero.sub": "Cold, clear water condenses into ripples. This is where I keep the games, Minecraft mods, and desktop apps I've built.",
       "hero.btnWorks": "View Works", "hero.btnGithub": "GitHub",
       "about.heading": "About",
       "about.p1": "I'm <strong>LingFengCW (LingFeng)</strong>, a developer who prefers building complete software and games from scratch.",
-      "about.p2": "My projects follow one naming rule: each begins with the character 泠 paired with a water-radical character — 泠浅, 泠泩, 泠瀄, 泠㴓, 泠𬇖, 泠瀑 — evoking 'clear, cold, ever-flowing water.' This site follows the same rule and is named 泠沨.",
+      "about.p2": "My projects follow one naming rule: each begins with the character 泠 paired with a water-radical character — 泠浅, 泠泩, 泠瀄, 泠㴓, 泠𬇖, 泠瀑 — evoking 'clear, cold, ever-flowing water.'",
       "about.p3": "Born on <strong>April 22, 2015</strong> — 11 years old.",
       "works.lead": "Six projects under the name 泠 — spanning games, mods, and desktop apps, all handcrafted by me.",
       "stat.projects": "Ling-series Projects", "stat.tech": "Tech Stacks", "stat.hand": "% Handcrafted",
@@ -41,7 +39,7 @@
       "empty": "No projects in this category.",
       "card.view": "View Project →", "card.local": "Local Source", "card.dl": "⬇ Download Latest",
       "ink.caption": "The highest good is like water — Laozi",
-      "footer.note": "LingFengCW Portfolio · Developer",
+      "footer.note": "LingFengCW · Developer",
       "footer.top": "Back to Top", "footer.by": "Built with 泠潮 (AI Software Engineer)"
     }
   };
