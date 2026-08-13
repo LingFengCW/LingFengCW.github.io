@@ -230,6 +230,17 @@
   }, { threshold: 0.4 });
   inkChars.forEach(c => inkIO.observe(c));
   if (inkCaption) inkIO.observe(inkCaption);
+  const inkVerse = document.querySelector(".ink-verse");
+  if (inkVerse) inkIO.observe(inkVerse);
+
+  // ---------- 水文长卷：每行逐字浮现（始终中文） ----------
+  const flowLines = document.querySelectorAll(".flow-line");
+  const flowIO = new IntersectionObserver(entries => {
+    entries.forEach(en => {
+      if (en.isIntersecting) { en.target.classList.add("in"); flowIO.unobserve(en.target); }
+    });
+  }, { threshold: 0.35 });
+  flowLines.forEach(l => flowIO.observe(l));
   if (inkRipple) {
     const ripIO = new IntersectionObserver(entries => {
       entries.forEach(en => {
