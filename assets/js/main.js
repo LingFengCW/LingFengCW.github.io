@@ -7,6 +7,7 @@
     zh: {
       "nav.about": "关于", "nav.works": "作品",
       "hero.kicker": "LingFengCW · 开发者",
+      "hero.tagline": "LingFengCW 的个人作品集",
       "hero.sub": "清冷流水，凝而成沨。这里收录我做过的游戏、Minecraft 模组与桌面应用。",
       "hero.btnWorks": "浏览作品", "hero.btnGithub": "访问 GitHub",
       "about.heading": "关于",
@@ -26,6 +27,7 @@
     en: {
       "nav.about": "About", "nav.works": "Works",
       "hero.kicker": "LingFengCW · Developer",
+      "hero.tagline": "LingFengCW's Personal Portfolio",
       "hero.sub": "Cold, clear water condenses into ripples. This is where I keep the games, Minecraft mods, and desktop apps I've built.",
       "hero.btnWorks": "View Works", "hero.btnGithub": "GitHub",
       "about.heading": "About",
