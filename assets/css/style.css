@@ -123,6 +123,11 @@ body{
 .hero-phrase::before,.hero-phrase::after{content:"";display:inline-block;width:30px;height:1px;vertical-align:middle;background:linear-gradient(90deg,transparent,var(--ling-mid));margin:0 14px}
 .hero-phrase::after{background:linear-gradient(90deg,var(--ling-mid),transparent)}
 @keyframes phraseRise{to{opacity:1;transform:translateY(0)}}
+/* 首屏滚动引导（浮动文字动画） */
+.scroll-hint{position:absolute;left:50%;bottom:20px;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:4px;color:var(--ling-deep);font-size:12px;letter-spacing:.28em;opacity:.72;animation:hintBob 1.9s ease-in-out infinite;pointer-events:none}
+.scroll-hint .arrow{font-style:normal;font-size:18px;line-height:1;animation:hintBobY 1.9s ease-in-out infinite}
+@keyframes hintBob{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(7px)}}
+@keyframes hintBobY{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
 .hero-kicker{letter-spacing:.32em;text-transform:uppercase;font-size:13px;color:var(--ling-mid);font-weight:700}
 
 /* 首屏标题：逐字落水 + 流光 */
@@ -180,6 +185,8 @@ body{
 /* ---------- 关于 ---------- */
 .about-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:40px;align-items:center}
 .about-text p{margin-bottom:16px;color:var(--ink-soft);font-size:16px}
+.about-text p.reveal:nth-of-type(2){transition-delay:.16s}
+.about-text p.reveal:nth-of-type(3){transition-delay:.32s}
 .about-text strong{color:var(--ling-deep)}
 .stat-list{list-style:none;display:grid;gap:18px}
 .stat-list li{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 22px;box-shadow:var(--shadow);position:relative;overflow:hidden}
@@ -188,6 +195,7 @@ body{
 .stat-label{font-size:14px;color:var(--ink-faint)}
 
 /* ---------- 筛选 ---------- */
+.works-lead{margin:-14px 0 26px;max-width:680px;color:var(--ink-soft);font-size:16px;line-height:1.8}
 .filter-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px}
 .chip{
   border:1px solid var(--line);background:var(--card);color:var(--ink-soft);
@@ -205,8 +213,8 @@ body{
   display:flex;flex-direction:column;
 }
 .card.enter{animation:cardRise .55s both}
-.card:hover{animation:bob 1.15s ease-in-out infinite alternate;box-shadow:var(--shadow-hi)}
-@keyframes bob{from{transform:translateY(-9px)}to{transform:translateY(11px)}}
+.card:hover{animation:bob 2.6s ease-in-out infinite;box-shadow:var(--shadow-hi)}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
 @keyframes cardRise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
 .card::before{content:"";position:absolute;left:0;top:0;width:100%;height:4px;background:linear-gradient(90deg,var(--ling-light),var(--ling-mid),var(--ling-deep))}
 .card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
@@ -344,6 +352,9 @@ body{
   .nav-links{gap:14px}
   .nav-links a{font-size:14px}
   .nav-icon{width:28px;height:28px}
+  .hero-phrase::before,.hero-phrase::after{display:none}
+  .hero-phrase{letter-spacing:.08em}
+  .scroll-hint{display:none}
 }
 @media(max-width:420px){
   .lang-switch{padding:4px 9px;font-size:12px}
