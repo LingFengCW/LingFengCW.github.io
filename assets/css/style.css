@@ -86,18 +86,18 @@ body{
 .lang-switch i{color:var(--line);font-style:normal}
 
 /* ---------- 首屏 ---------- */
-.hero{position:relative;overflow:hidden;padding:clamp(72px,12vh,130px) clamp(18px,5vw,48px) 120px;text-align:center;z-index:1}
+.hero{position:relative;overflow:hidden;padding:clamp(72px,12vh,130px) clamp(18px,5vw,48px) 110px;text-align:center;z-index:1;background:linear-gradient(180deg,#eaf7fb 0%,#d8eef4 58%,#c2e6f1 100%)}
 .hero-bg{position:absolute;inset:0;z-index:0;pointer-events:none}
 .hero-bg::before{
   content:"";position:absolute;inset:0;
   background:linear-gradient(180deg,rgba(191,238,251,.35),rgba(95,200,224,.12) 40%,transparent 75%);
 }
-.hero-waves{position:absolute;bottom:0;left:0;width:100%;height:46%}
-.hero-waves .w{fill:var(--ling-light);opacity:.35}
-.hero-waves .w2{fill:var(--ling-mid);opacity:.30;animation:waveX 14s linear infinite}
-.hero-waves .w3{fill:var(--ling-deep);opacity:.30;animation:waveX 20s linear infinite reverse}
-.hero-waves .w1{animation:waveX 10s linear infinite}
-@keyframes waveX{from{transform:translateX(0)}to{transform:translateX(-360px)}}
+.hero-waves{position:absolute;bottom:0;left:0;width:100%;height:62%;min-height:300px}
+.hero-waves .w{fill:var(--ling-light);opacity:.5}
+.hero-waves .w2{fill:var(--ling-mid);opacity:.42;animation:waveX 18s linear infinite}
+.hero-waves .w3{fill:var(--ling-deep);opacity:.38;animation:waveX 26s linear infinite reverse}
+.hero-waves .w1{animation:waveX 12s linear infinite}
+@keyframes waveX{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .bubbles{position:absolute;inset:0;overflow:hidden}
 .bubble{
   position:absolute;bottom:-40px;border-radius:50%;
@@ -170,7 +170,7 @@ body{
 /* ---------- 通用 section ---------- */
 .section{max-width:var(--maxw);margin:0 auto;padding:clamp(56px,9vh,96px) clamp(18px,5vw,48px);position:relative;z-index:1}
 .section-head{display:flex;align-items:baseline;gap:14px;margin-bottom:36px}
-.section-index{font-size:14px;font-weight:700;color:var(--ling-mid);letter-spacing:.1em}
+.section-index{font-size:13px;font-weight:800;color:var(--ling);letter-spacing:.22em;opacity:.9}
 .section-head h2{
   font-size:clamp(26px,4vw,38px);font-weight:700;letter-spacing:.04em;position:relative;
 }

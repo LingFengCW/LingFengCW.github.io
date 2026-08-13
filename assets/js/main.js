@@ -285,4 +285,14 @@
   applyStaticLang();
   renderCards("all");
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  // 兜底：防止 IntersectionObserver 未触发导致首屏/关于等内容整块空白
+  function revealFallback(){
+    document.querySelectorAll(".reveal:not(.in)").forEach(el=>{
+      const r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight * 0.95 && r.bottom > 0) el.classList.add("in");
+    });
+  }
+  window.addEventListener("load", revealFallback);
+  setTimeout(()=>{ document.querySelectorAll(".reveal:not(.in)").forEach(el=>el.classList.add("in")); }, 2600);
 })();
