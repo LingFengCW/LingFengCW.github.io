@@ -155,7 +155,7 @@
         <div class="card-actions">${link}${dl}</div>
       `;
       card.addEventListener("animationend", function handler(e) {
-        if (e.animationName === "rise") { card.classList.remove("enter"); card.removeEventListener("animationend", handler); }
+        if (e.animationName === "cardRise") { card.classList.remove("enter"); card.removeEventListener("animationend", handler); }
       });
       cardsEl.appendChild(card);
     });
