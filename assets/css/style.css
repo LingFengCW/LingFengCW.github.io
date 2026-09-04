@@ -94,22 +94,38 @@ body{
 }
 .hero-waves{position:absolute;bottom:0;left:0;width:100%;height:62%;min-height:300px}
 .hero-waves .w{fill:var(--ling-light);opacity:.5}
-.hero-waves .w2{fill:var(--ling-mid);opacity:.42;animation:waveX 18s linear infinite}
-.hero-waves .w3{fill:var(--ling-deep);opacity:.38;animation:waveX 26s linear infinite reverse}
-.hero-waves .w1{animation:waveX 12s linear infinite}
-@keyframes waveX{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+/* 远景浅涟：仅描边，随浪缓慢漂移 */
+.hero-waves .w0{
+  fill:none;stroke:var(--ling-light);stroke-width:1.6;opacity:.32;
+  vector-effect:non-scaling-stroke;
+  animation:waveX 30s linear infinite;
+}
+.hero-waves .w1{fill:var(--ling-light);opacity:.5;animation:waveX 12s linear infinite}
+.hero-waves .w2{fill:var(--ling-mid);opacity:.42;animation:waveX 18s linear infinite;filter:blur(.6px)}
+.hero-waves .w3{fill:var(--ling-deep);opacity:.38;animation:waveX 26s linear infinite reverse;filter:blur(1.2px)}
+/* 前浪发光波峰线：与前浪同相位同速，贴合水面 */
+.hero-waves .w-crest{
+  fill:none;stroke:var(--ling-pale);stroke-width:2.4;stroke-linecap:round;opacity:.85;
+  vector-effect:non-scaling-stroke;
+  filter:drop-shadow(0 0 7px rgba(95,200,224,.95));
+  animation:waveX 12s linear infinite;
+}
+/* 位移恰好一个波长：720 / 2880 = 25%。路径已多画一个波长，循环首尾完全重合，不会出现断浪 */
+@keyframes waveX{from{transform:translateX(0)}to{transform:translateX(-25%)}}
 .bubbles{position:absolute;inset:0;overflow:hidden}
 .bubble{
   position:absolute;bottom:-40px;border-radius:50%;
-  background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.9),rgba(95,200,224,.35));
-  box-shadow:0 0 12px rgba(95,200,224,.4);
+  background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.95),rgba(95,200,224,.4));
+  box-shadow:0 0 14px rgba(95,200,224,.45);
   animation:bubbleFloat linear infinite;
 }
+/* --sx 为每颗气泡的随机横向漂移量（JS 注入），让上浮轨迹不呆板 */
 @keyframes bubbleFloat{
-  0%{transform:translateY(0) scale(.6);opacity:0}
-  10%{opacity:.8}
+  0%{transform:translate(0,0) scale(.6);opacity:0}
+  10%{opacity:.85}
+  50%{transform:translate(var(--sx,0px),-43vh) scale(1)}
   90%{opacity:.5}
-  100%{transform:translateY(-86vh) scale(1);opacity:0}
+  100%{transform:translate(0,-86vh) scale(1.12);opacity:0}
 }
 .hero-inner{position:relative;z-index:1;max-width:780px;margin:0 auto}
 /* 首屏底部水面短语（中文，渐入上浮） */
@@ -198,11 +214,16 @@ body{
 .works-lead{margin:-14px 0 26px;max-width:680px;color:var(--ink-soft);font-size:16px;line-height:1.8}
 .filter-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px}
 .chip{
+  display:inline-flex;align-items:center;gap:7px;
   border:1px solid var(--line);background:var(--card);color:var(--ink-soft);
   padding:8px 18px;border-radius:999px;font-size:14px;cursor:pointer;transition:all .2s;
 }
+.chip-ico{display:inline-grid;place-items:center;width:17px;height:17px;color:var(--ling-mid);transition:color .2s}
+.chip-ico svg{width:17px;height:17px;display:block}
 .chip:hover{border-color:var(--ling-light)}
+.chip:hover .chip-ico{color:var(--ling)}
 .chip.active{background:linear-gradient(135deg,var(--ling-mid),var(--ling-deep));color:#fff;border-color:transparent}
+.chip.active .chip-ico{color:#fff}
 
 /* ---------- 卡片（悬停上下浮动） ---------- */
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:22px;position:relative;z-index:1}

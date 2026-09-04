@@ -196,16 +196,18 @@
 
   // ---------- 气泡生成 ----------
   const bubbles = document.getElementById("bubbles");
-  const BUBBLE_COUNT = 14;
+  const BUBBLE_COUNT = 22;
   for (let i = 0; i < BUBBLE_COUNT; i++) {
     const b = document.createElement("span");
     b.className = "bubble";
-    const size = 6 + Math.random() * 26;
+    const size = 5 + Math.random() * 28;
     b.style.width = size + "px";
     b.style.height = size + "px";
     b.style.left = (Math.random() * 100) + "%";
-    b.style.animationDuration = (9 + Math.random() * 12) + "s";
-    b.style.animationDelay = (-Math.random() * 16) + "s";
+    b.style.animationDuration = (8 + Math.random() * 14) + "s";
+    b.style.animationDelay = (-Math.random() * 18) + "s";
+    // 每颗气泡随机横向漂移，避免整片气泡垂直并行上浮
+    b.style.setProperty("--sx", (Math.random() * 56 - 28).toFixed(1) + "px");
     bubbles.appendChild(b);
   }
 
