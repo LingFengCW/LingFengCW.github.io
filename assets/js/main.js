@@ -85,8 +85,8 @@
       type: { zh: "桌面应用", en: "Desktop App" },
       statusText: { zh: "已停更", en: "Discontinued" },
       desc: {
-        zh: "基于时间轴的口型 / 顶点几何变形对口型动画编辑器，已衍生出音调调节、字符管理等插件生态。项目已停止维护。",
-        en: "A timeline-based lip-sync animation editor using mouth-shape / vertex deformation, with a plugin ecosystem (pitch shift, character manager). Development discontinued."
+        zh: "基于时间轴的口型 / 顶点几何变形对口型动画编辑器。项目已停止维护。",
+        en: "A timeline-based lip-sync animation editor driven by mouth-shape / vertex deformation. Development discontinued."
       },
       tags: ["Electron", "FFmpeg", "JavaScript"], url: null
     },
@@ -132,7 +132,7 @@
       tags: ["C#", "WPF", "Avalonia", ".NET"], url: null
     },
     {
-      glyph: "澋", name: "泠澋", en: "KeyframeStudio", cat: "app", status: "dev",
+      glyph: "演", name: "泠演", en: "KeyframeStudio", cat: "app", status: "dev",
       type: { zh: "关键帧动画编辑器", en: "Keyframe Animation Editor" },
       statusText: { zh: "开发中", en: "In Development" },
       desc: {
@@ -152,7 +152,7 @@
       tags: ["TypeScript", "Node.js", "NapCat", "LLM"], url: null
     },
     {
-      glyph: "屏", name: "ElemonHud", en: "ElemonHud", cat: "app", status: "dev",
+      glyph: "浮", name: "泠浮", en: "ElemonHud", cat: "app", status: "dev",
       type: { zh: "桌面悬浮信息面板", en: "Desktop HUD Overlay" },
       statusText: { zh: "开发中", en: "In Development" },
       desc: {
@@ -162,17 +162,17 @@
       tags: ["Electron", "JavaScript"], url: null
     },
     {
-      glyph: "字", name: "鬼畜工具", en: "Guichu Tool · 鬼畜活字乱刷", cat: "app", status: "active",
+      glyph: "活", name: "泠活", en: "Guichu Tool · 鬼畜活字乱刷", cat: "app", status: "active",
       type: { zh: "视频字库编排工具", en: "Video Glyph-library Tool" },
       statusText: { zh: "活跃维护", en: "Active" },
       desc: {
-        zh: "「鬼畜活字乱刷」——视频字库编排工具：按时间轴编排字幕字库并生成鬼畜效果，内置 Whisper 语音识别，Electron 打包发布（v1.0.3）。",
-        en: "A video glyph-library arrangement tool: compose subtitle glyph banks on a timeline to generate 'guichu' remix effects, with built-in Whisper speech recognition. Shipped as an Electron desktop app (v1.0.3)."
+        zh: "「鬼畜活字乱刷」——视频字库编排工具：按时间轴编排字幕字库并生成鬼畜效果，内置 Whisper 语音识别，Electron 打包发布（v1.0.3）。带插件体系，可加载字符管理、音调调节、更多设置等插件。",
+        en: "A video glyph-library arrangement tool: compose subtitle glyph banks on a timeline to generate 'guichu' remix effects, with built-in Whisper speech recognition. Shipped as an Electron desktop app (v1.0.3) with a plugin system that loads Character Manager, Pitch Shifter, and More Settings."
       },
       tags: ["Electron", "Whisper", "FFmpeg", "JavaScript"], url: null
     },
     {
-      glyph: "文", name: "ai-office", en: "AI Office Suite", cat: "app", status: "dev",
+      glyph: "润", name: "泠润", en: "AI Office Suite", cat: "app", status: "dev",
       type: { zh: "AI 文档办公套件", en: "AI Office Suite" },
       statusText: { zh: "开发中", en: "In Development" },
       desc: {
@@ -182,7 +182,7 @@
       tags: ["Node.js", "AI", "Document"], url: null
     },
     {
-      glyph: "铁", name: "FiRailwayOps", en: "FiRailwayOps · 宁风铁路局车务插件", cat: "mod", status: "dev",
+      glyph: "沿", name: "泠沿", en: "FiRailwayOps · 宁风铁路局车务插件", cat: "mod", status: "dev",
       type: { zh: "Minecraft 服务器插件", en: "Minecraft Server Plugin" },
       statusText: { zh: "开发中", en: "In Development" },
       desc: {
@@ -192,7 +192,7 @@
       tags: ["Java", "Gradle", "Minecraft"], url: null
     },
     {
-      glyph: "轨", name: "FiRailwayTool", en: "FiRailwayTool", cat: "tool", status: "dev",
+      glyph: "泊", name: "泠泊", en: "FiRailwayTool", cat: "tool", status: "dev",
       type: { zh: "铁路数据工具（Web + 服务）", en: "Railway Data Tool (Web + Server)" },
       statusText: { zh: "开发中", en: "In Development" },
       desc: {
@@ -202,37 +202,37 @@
       tags: ["Web", "JavaScript", "Server"], url: null
     },
     {
-      glyph: "符", name: "字符管理器", en: "Character Manager", cat: "tool", status: "done",
-      type: { zh: "泠𬇖 插件", en: "Lingmian Plugin" },
+      glyph: "汇", name: "泠汇", en: "Character Manager", cat: "tool", status: "done",
+      type: { zh: "鬼畜工具插件", en: "Guichu Tool Plugin" },
       statusText: { zh: "已完成", en: "Complete" },
       desc: {
-        zh: "泠𬇖 对口型编辑器的插件：字符分组、批量重命名与自定义音频导入。",
-        en: "A Lingmian (lip-sync editor) plugin for character grouping, batch renaming, and custom audio import."
+        zh: "鬼畜工具（泠活）的插件：字符分组、批量重命名与自定义音频导入。",
+        en: "A plugin for the Guichu Tool (泠活) video glyph-library editor: character grouping, batch renaming, and custom audio import."
       },
       tags: ["JavaScript", "Plugin"], url: null
     },
     {
-      glyph: "调", name: "音调调节", en: "Pitch Shifter", cat: "tool", status: "done",
-      type: { zh: "泠𬇖 插件", en: "Lingmian Plugin" },
+      glyph: "波", name: "泠波", en: "Pitch Shifter", cat: "tool", status: "done",
+      type: { zh: "鬼畜工具插件", en: "Guichu Tool Plugin" },
       statusText: { zh: "已完成", en: "Complete" },
       desc: {
-        zh: "泠𬇖 对口型编辑器的插件：逐字 / 逐组调整音频音调（pitch）。",
-        en: "A Lingmian (lip-sync editor) plugin for per-character and per-group audio pitch adjustment."
+        zh: "鬼畜工具（泠活）的插件：逐字 / 逐组调整音频音调（pitch），依赖字符管理器插件。",
+        en: "A plugin for the Guichu Tool (泠活): per-character and per-group audio pitch adjustment. Depends on the Character Manager plugin."
       },
       tags: ["JavaScript", "Plugin", "Audio"], url: null
     },
     {
-      glyph: "设", name: "更多设置", en: "More Settings", cat: "tool", status: "done",
-      type: { zh: "泠𬇖 插件", en: "Lingmian Plugin" },
+      glyph: "涵", name: "泠涵", en: "More Settings", cat: "tool", status: "done",
+      type: { zh: "鬼畜工具插件", en: "Guichu Tool Plugin" },
       statusText: { zh: "已完成", en: "Complete" },
       desc: {
-        zh: "泠𬇖 对口型编辑器的插件：扩展设置项，含批量并发、自动清理、导出质量与播放默认值。",
-        en: "A Lingmian (lip-sync editor) plugin adding extended settings: batch concurrency, auto cleanup, export quality, and playback defaults."
+        zh: "鬼畜工具（泠活）的插件：扩展设置项，涵盖批量并发、自动清理、导出质量与播放默认值。",
+        en: "A plugin for the Guichu Tool (泠活) adding extended settings: batch concurrency, auto cleanup, export quality, and playback defaults."
       },
       tags: ["JavaScript", "Plugin"], url: null
     },
     {
-      glyph: "图", name: "RegionMapStudio", en: "Region Map Studio", cat: "exp", status: "exp",
+      glyph: "涂", name: "泠涂", en: "Region Map Studio", cat: "exp", status: "exp",
       type: { zh: "区域点亮视频生成器", en: "Region Lighting Video Generator" },
       statusText: { zh: "实验性", en: "Experimental" },
       desc: {
@@ -242,7 +242,7 @@
       tags: ["WebCodecs", "GeoJSON", "Canvas", "JavaScript"], url: null
     },
     {
-      glyph: "枢", name: "MACO Hub", en: "MACO Hub · Multi-Agent Collaboration Hub", cat: "exp", status: "exp",
+      glyph: "治", name: "泠治", en: "MACO Hub · Multi-Agent Collaboration Hub", cat: "exp", status: "exp",
       type: { zh: "多智能体协作中枢", en: "Multi-Agent Collaboration Hub" },
       statusText: { zh: "实验性", en: "Experimental" },
       desc: {
