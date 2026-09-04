@@ -250,6 +250,7 @@ body{
 .badge.dev{background:rgba(180,140,40,.16);color:#9a7415}
 .badge.exp{background:rgba(90,120,200,.14);color:#3a5bb0}
 .badge.stop{background:rgba(150,150,150,.18);color:#6a6a6a}
+.badge.done{background:rgba(42,157,143,.16);color:#1e7a6b}
 .card-type{font-size:13px;color:var(--ling-mid);font-weight:600;margin:8px 0 10px;letter-spacing:.05em}
 .card-desc{font-size:14.5px;color:var(--ink-soft);margin-bottom:16px;min-height:66px}
 .tags{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}

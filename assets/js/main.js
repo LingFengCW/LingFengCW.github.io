@@ -13,10 +13,11 @@
       "about.p1": "我是 <strong>泠沨（LingFengCW）</strong>，一名开发者，偏爱从零搭建完整的软件与游戏。",
       "about.p2": "我的项目有一个统一的命名规则：<strong>全部以「泠」字起头，搭配一个水部汉字</strong>——泠浅、泠泩、泠瀄、泠㴓、泠𬇖、泠瀑……取「清冷流水、绵延不绝」之意。",
       "about.p3": "我生于 <strong>2015 年 4 月 22 日</strong>，今年 11 岁。",
-      "works.lead": "六个以「泠」为名的项目——从游戏、模组到桌面应用，皆由我手写构建。",
+      "works.lead": "十个以「泠」为名的项目，另有工具与实验性作品——从游戏、模组到桌面应用，皆由我手写构建。",
       "stat.projects": "泠系主项目", "stat.tech": "技术栈方向", "stat.hand": "% 手写实现",
       "works.heading": "作品 · 泠系项目",
-      "filter.all": "全部", "filter.game": "游戏", "filter.mod": "模组", "filter.app": "桌面应用",
+      "filter.all": "全部", "filter.game": "游戏", "filter.mod": "模组", "filter.app": "应用",
+      "filter.tool": "工具", "filter.exp": "实验",
       "empty": "该分类下暂无项目。",
       "card.view": "查看项目 →", "card.local": "源码托管于本地", "card.dl": "⬇ 下载最新版",
       "ink.caption": "上善若水 · 出自《道德经》",
@@ -32,10 +33,11 @@
       "about.p1": "I'm <strong>LingFengCW (LingFeng)</strong>, a developer who prefers building complete software and games from scratch.",
       "about.p2": "My projects follow one naming rule: each begins with the character 泠 paired with a water-radical character — 泠浅, 泠泩, 泠瀄, 泠㴓, 泠𬇖, 泠瀑 — evoking 'clear, cold, ever-flowing water.'",
       "about.p3": "Born on <strong>April 22, 2015</strong> — 11 years old.",
-      "works.lead": "Six projects under the name 泠 — spanning games, mods, and desktop apps, all handcrafted by me.",
+      "works.lead": "Ten projects under the name 泠, plus tools and experiments — spanning games, mods, and desktop apps, all handcrafted by me.",
       "stat.projects": "Ling-series Projects", "stat.tech": "Tech Stacks", "stat.hand": "% Handcrafted",
       "works.heading": "Works · Ling Series",
       "filter.all": "All", "filter.game": "Games", "filter.mod": "Mods", "filter.app": "Apps",
+      "filter.tool": "Tools", "filter.exp": "Experiments",
       "empty": "No projects in this category.",
       "card.view": "View Project →", "card.local": "Local Source", "card.dl": "⬇ Download Latest",
       "ink.caption": "The highest good is like water — Laozi",
@@ -107,6 +109,147 @@
         en: "com.lingzhi's Paper server plugin (LingzhiPlugin), with a corresponding Fabric mod build (lingzhi-mod.jar)."
       },
       tags: ["Java", "PaperMC", "Fabric", "Maven"], url: null
+    },
+    {
+      glyph: "汶", name: "泠汶", en: "LightType Font (LITF)", cat: "app", status: "active",
+      type: { zh: "开源矢量字体格式", en: "Open Vector Font Format" },
+      statusText: { zh: "活跃维护", en: "Active" },
+      desc: {
+        zh: "轻量开源矢量字体格式：字形轮廓直接存为 SVG path，扁平的「定长头 + 有序字形数组」结构，32 位码点原生支持超大字符集，不设 CMAP / HMTX / GSUB 表，第三方约半小时即可写出解析器。中文代号「泠汶」，公开名为 LightType Font。",
+        en: "A lightweight open-source vector font format: glyph outlines stored directly as SVG path data in a flat fixed-header + sorted-glyph-array layout. 32-bit codepoints natively support huge character sets; there are no CMAP / HMTX / GSUB tables, so a third-party parser takes about half an hour. Chinese codename 泠汶; public name LightType Font."
+      },
+      tags: ["SVG", "Font", "Python", "Spec"],
+      url: "https://github.com/LingFengCW/LightTypeFont"
+    },
+    {
+      glyph: "泐", name: "泠泐", en: "LITF Editor", cat: "app", status: "dev",
+      type: { zh: "字体编辑器（桌面应用）", en: "Font Editor (Desktop App)" },
+      statusText: { zh: "开发中", en: "In Development" },
+      desc: {
+        zh: "适配 LITF 格式的字体编辑器，提供 C# WPF 与 Avalonia 双实现，附格式转换器（LITF.Converter）与字形预览、字体比对脚本。",
+        en: "A font editor for the LITF format with both C# WPF and Avalonia implementations, bundled with a format converter (LITF.Converter), glyph preview, and font comparison scripts."
+      },
+      tags: ["C#", "WPF", "Avalonia", ".NET"], url: null
+    },
+    {
+      glyph: "澋", name: "泠澋", en: "KeyframeStudio", cat: "app", status: "dev",
+      type: { zh: "关键帧动画编辑器", en: "Keyframe Animation Editor" },
+      statusText: { zh: "开发中", en: "In Development" },
+      desc: {
+        zh: "C# / .NET 10 + WPF 实现的轻量关键帧动画编辑器：分作品管理、父子节点世界变换叠加、编组、基于 MEF 与隔离 AssemblyLoadContext 的插件体系，属性关键帧支持线性与缓动插值。",
+        en: "A lightweight keyframe animation editor in C# / .NET 10 + WPF: multi-work management, parent-child world transform stacking, grouping, a MEF plugin system on an isolated AssemblyLoadContext, and property keyframes with linear and easing interpolation."
+      },
+      tags: ["C#", ".NET 10", "WPF", "MEF"], url: null
+    },
+    {
+      glyph: "汧", name: "泠汧", en: "LingQian · QQ AI Bot", cat: "app", status: "active",
+      type: { zh: "QQ 群聊 AI 机器人", en: "QQ Group Chat AI Bot" },
+      statusText: { zh: "活跃维护", en: "Active" },
+      desc: {
+        zh: "基于 NapCat 的 QQ 群聊机器人框架，接入本地 DeepSeek 模型（node-llama-cpp），使用 sql.js 做持久化，支持图片处理与 WebSocket 通信。",
+        en: "A QQ group chat bot framework built on NapCat, wired to a local DeepSeek model (node-llama-cpp), with sql.js persistence, image processing, and WebSocket transport."
+      },
+      tags: ["TypeScript", "Node.js", "NapCat", "LLM"], url: null
+    },
+    {
+      glyph: "屏", name: "ElemonHud", en: "ElemonHud", cat: "app", status: "dev",
+      type: { zh: "桌面悬浮信息面板", en: "Desktop HUD Overlay" },
+      statusText: { zh: "开发中", en: "In Development" },
+      desc: {
+        zh: "基于 Electron 的桌面悬浮信息面板（HUD），已打包 Windows 可执行版本，用于在游戏或桌面上叠加实时信息。",
+        en: "An Electron-based floating desktop info panel (HUD), packaged as a Windows executable for overlaying live information on games or the desktop."
+      },
+      tags: ["Electron", "JavaScript"], url: null
+    },
+    {
+      glyph: "字", name: "鬼畜工具", en: "Guichu Tool · 鬼畜活字乱刷", cat: "app", status: "active",
+      type: { zh: "视频字库编排工具", en: "Video Glyph-library Tool" },
+      statusText: { zh: "活跃维护", en: "Active" },
+      desc: {
+        zh: "「鬼畜活字乱刷」——视频字库编排工具：按时间轴编排字幕字库并生成鬼畜效果，内置 Whisper 语音识别，Electron 打包发布（v1.0.3）。",
+        en: "A video glyph-library arrangement tool: compose subtitle glyph banks on a timeline to generate 'guichu' remix effects, with built-in Whisper speech recognition. Shipped as an Electron desktop app (v1.0.3)."
+      },
+      tags: ["Electron", "Whisper", "FFmpeg", "JavaScript"], url: null
+    },
+    {
+      glyph: "文", name: "ai-office", en: "AI Office Suite", cat: "app", status: "dev",
+      type: { zh: "AI 文档办公套件", en: "AI Office Suite" },
+      statusText: { zh: "开发中", en: "In Development" },
+      desc: {
+        zh: "轻量 AI 办公软件：多格式文档查看、可自定义 AI 接口、带附件上下文的对话，以及可视化的差异编辑。",
+        en: "A lightweight AI office app: multi-format document viewing, a customizable AI API backend, attachment-aware chat, and visualized diff editing."
+      },
+      tags: ["Node.js", "AI", "Document"], url: null
+    },
+    {
+      glyph: "铁", name: "FiRailwayOps", en: "FiRailwayOps · 宁风铁路局车务插件", cat: "mod", status: "dev",
+      type: { zh: "Minecraft 服务器插件", en: "Minecraft Server Plugin" },
+      statusText: { zh: "开发中", en: "In Development" },
+      desc: {
+        zh: "为「宁风铁路局」服务器定制的车务插件：八类车次编号（G/T/C/P/H/L/Z/S）、线路编码与命名规则、到发站播报模板的集中管理。",
+        en: "A railway operations plugin for the Ningfeng Railway Bureau server: eight train-number classes (G/T/C/P/H/L/Z/S), line coding and naming rules, and centralized arrival/departure announcement templates."
+      },
+      tags: ["Java", "Gradle", "Minecraft"], url: null
+    },
+    {
+      glyph: "轨", name: "FiRailwayTool", en: "FiRailwayTool", cat: "tool", status: "dev",
+      type: { zh: "铁路数据工具（Web + 服务）", en: "Railway Data Tool (Web + Server)" },
+      statusText: { zh: "开发中", en: "In Development" },
+      desc: {
+        zh: "宁风铁路局的配套工具：前端页面加后端服务，用于线路与车次数据的查看与维护。",
+        en: "A companion tool for the Ningfeng Railway Bureau: a web front end plus a backend service for viewing and maintaining line and train-number data."
+      },
+      tags: ["Web", "JavaScript", "Server"], url: null
+    },
+    {
+      glyph: "符", name: "字符管理器", en: "Character Manager", cat: "tool", status: "done",
+      type: { zh: "泠𬇖 插件", en: "Lingmian Plugin" },
+      statusText: { zh: "已完成", en: "Complete" },
+      desc: {
+        zh: "泠𬇖 对口型编辑器的插件：字符分组、批量重命名与自定义音频导入。",
+        en: "A Lingmian (lip-sync editor) plugin for character grouping, batch renaming, and custom audio import."
+      },
+      tags: ["JavaScript", "Plugin"], url: null
+    },
+    {
+      glyph: "调", name: "音调调节", en: "Pitch Shifter", cat: "tool", status: "done",
+      type: { zh: "泠𬇖 插件", en: "Lingmian Plugin" },
+      statusText: { zh: "已完成", en: "Complete" },
+      desc: {
+        zh: "泠𬇖 对口型编辑器的插件：逐字 / 逐组调整音频音调（pitch）。",
+        en: "A Lingmian (lip-sync editor) plugin for per-character and per-group audio pitch adjustment."
+      },
+      tags: ["JavaScript", "Plugin", "Audio"], url: null
+    },
+    {
+      glyph: "设", name: "更多设置", en: "More Settings", cat: "tool", status: "done",
+      type: { zh: "泠𬇖 插件", en: "Lingmian Plugin" },
+      statusText: { zh: "已完成", en: "Complete" },
+      desc: {
+        zh: "泠𬇖 对口型编辑器的插件：扩展设置项，含批量并发、自动清理、导出质量与播放默认值。",
+        en: "A Lingmian (lip-sync editor) plugin adding extended settings: batch concurrency, auto cleanup, export quality, and playback defaults."
+      },
+      tags: ["JavaScript", "Plugin"], url: null
+    },
+    {
+      glyph: "图", name: "RegionMapStudio", en: "Region Map Studio", cat: "exp", status: "exp",
+      type: { zh: "区域点亮视频生成器", en: "Region Lighting Video Generator" },
+      statusText: { zh: "实验性", en: "Experimental" },
+      desc: {
+        zh: "GD 风格的中国区域点亮视频生成器：基于阿里 DataV.GeoAtlas 的省 / 市 / 县三级 GeoJSON，逐帧点亮并用 WebCodecs 直接导出视频。单 HTML 文件，无需后端。",
+        en: "A Geometry-Dash-style China region-lighting video generator: province/city/county GeoJSON from Alibaba DataV.GeoAtlas, lit frame by frame and exported directly via WebCodecs. A single HTML file with no backend."
+      },
+      tags: ["WebCodecs", "GeoJSON", "Canvas", "JavaScript"], url: null
+    },
+    {
+      glyph: "枢", name: "MACO Hub", en: "MACO Hub · Multi-Agent Collaboration Hub", cat: "exp", status: "exp",
+      type: { zh: "多智能体协作中枢", en: "Multi-Agent Collaboration Hub" },
+      statusText: { zh: "实验性", en: "Experimental" },
+      desc: {
+        zh: "多智能体协作中枢（Python）：访问平面、治理平面与上下文蒸馏等分层模块，探索多 AI 并发协作的调度与治理机制。",
+        en: "A multi-agent collaboration hub in Python: layered modules for the access plane, governance plane, and context distillation, exploring scheduling and governance for concurrent multi-AI cooperation."
+      },
+      tags: ["Python", "Multi-Agent", "LLM"], url: null
     }
   ];
 
