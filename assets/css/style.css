@@ -73,17 +73,20 @@ body{
 .nav-icon svg{width:20px;height:20px}
 .nav-icon:hover{color:#fff;background:var(--ling);transform:translateY(-2px)}
 
-/* 语言切换 */
+/* 语言切换（20 语种下拉） */
 .lang-switch{
-  display:inline-flex;align-items:center;gap:4px;cursor:pointer;
+  appearance:none;-webkit-appearance:none;-moz-appearance:none;
+  cursor:pointer;max-width:132px;text-overflow:ellipsis;
   border:1px solid var(--line);background:var(--card);color:var(--ink-faint);
-  padding:5px 12px;border-radius:999px;font-size:13px;font-weight:600;letter-spacing:.05em;
+  padding:5px 28px 5px 12px;border-radius:999px;font-size:13px;font-weight:600;letter-spacing:.05em;
   transition:all .2s;
+  /* 右侧箭头：用内联 SVG 保证跨平台一致 */
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238aa7b5' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 10px center;background-size:12px;
 }
 .lang-switch:hover{border-color:var(--ling-light)}
-.lang-switch span{padding:0 2px;transition:color .2s}
-.lang-switch span.active{color:var(--ling);font-weight:800}
-.lang-switch i{color:var(--line);font-style:normal}
+.lang-switch:focus-visible{outline:2px solid var(--ling-light);outline-offset:2px}
+.lang-switch option{color:#1a2b33;background:#fff}
 
 /* ---------- 首屏 ---------- */
 .hero{position:relative;overflow:hidden;padding:clamp(72px,12vh,130px) clamp(18px,5vw,48px) 110px;text-align:center;z-index:1;background:linear-gradient(180deg,#eaf7fb 0%,#d8eef4 58%,#c2e6f1 100%)}
@@ -379,7 +382,7 @@ body{
   .scroll-hint{display:none}
 }
 @media(max-width:420px){
-  .lang-switch{padding:4px 9px;font-size:12px}
+  .lang-switch{padding:4px 24px 4px 9px;font-size:12px;max-width:104px}
 }
 
 /* 尊重减少动效偏好 */
@@ -387,3 +390,23 @@ body{
   .reveal,.ink-char,.hero-title .ht-char,.hero-phrase,.flow-line .fch,.ink-verse{transition:none!important;animation:none!important;opacity:1!important;transform:none!important;clip-path:none!important;filter:none!important}
   .bubble,.hero-waves .w,.watermark,.hero-title{animation:none!important}
 }
+
+/* ---------- RTL 支持（阿拉伯语等从右向左书写） ---------- */
+html[dir="rtl"] .nav-links{direction:rtl}
+html[dir="rtl"] .about-list li,
+html[dir="rtl"] .stat-list li{direction:rtl}
+html[dir="rtl"] .card{text-align:right}
+html[dir="rtl"] .card-head{flex-direction:row-reverse}
+html[dir="rtl"] .card-actions{flex-direction:row-reverse}
+html[dir="rtl"] .card-actions{gap:14px}
+html[dir="rtl"] .tags{direction:rtl;justify-content:flex-start}
+html[dir="rtl"] .filter-bar{direction:rtl}
+html[dir="rtl"] .section-head{direction:rtl}
+html[dir="rtl"] .works-lead,
+html[dir="rtl"] .card-desc,
+html[dir="rtl"] .card-type,
+html[dir="rtl"] .card-en,
+html[dir="rtl"] .about-text p{direction:rtl;text-align:right}
+html[dir="rtl"] .footer-inner{direction:rtl}
+html[dir="rtl"] .scroll-hint{unicode-bidi:isolate}
+html[dir="rtl"] .hero-title{unicode-bidi:isolate}
