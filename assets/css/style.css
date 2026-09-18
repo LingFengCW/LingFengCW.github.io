@@ -149,18 +149,23 @@ body{
 @keyframes hintBobY{0%,100%{transform:translateY(0)}50%{transform:translateY(7px)}}
 .hero-kicker{letter-spacing:.32em;text-transform:uppercase;font-size:13px;color:var(--ling-mid);font-weight:700}
 
-/* 首屏标题：逐字落水 + 流光 */
+/* 首屏标题：逐字落水 + 流光
+   渐变与 background-clip:text 必须放在每个 .ht-char 自身：
+   子元素带 transform/filter 动画会被提升为合成层，父级的
+   text 裁剪背景绘制不到合成层，文字会整体不可见 */
 .hero-title{
   font-size:clamp(72px,15vw,160px);font-weight:800;letter-spacing:.08em;
   margin:4px 0 16px;
+  filter:drop-shadow(0 8px 22px rgba(17,130,158,.28));
+}
+.hero-title .ht-char{
+  display:inline-block;
   background:linear-gradient(110deg,var(--ling-deep),var(--ling-light),var(--ling-mid),var(--ling-deep));
   background-size:220% 100%;
   -webkit-background-clip:text;background-clip:text;color:transparent;
-  filter:drop-shadow(0 8px 22px rgba(17,130,158,.28));
-  animation:titleShimmer 6s linear infinite;
+  animation:htDrop 1s cubic-bezier(.18,.7,.2,1) both,titleShimmer 6s linear infinite;
 }
-.hero-title .ht-char{display:inline-block;animation:htDrop 1s cubic-bezier(.18,.7,.2,1) both}
-.hero-title .ht-char:nth-child(2){animation-delay:.18s}
+.hero-title .ht-char:nth-child(2){animation-delay:.18s,0s}
 @keyframes htDrop{
   0%{opacity:0;transform:translateY(64px) rotate(8deg);filter:blur(14px)}
   60%{opacity:1;filter:blur(0)}
