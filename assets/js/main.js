@@ -298,8 +298,36 @@
   }, { threshold: 0.6 });
   stats.forEach(s => statIO.observe(s));
 
+  // ---------- 标题流光：跨字连续 + 循环无缝 ----------
+  // 每个字都用同一张虚拟背景（宽 = 标题总宽 × 2），按自身左偏移取窗口，
+  // 光带即可连续扫过整个标题，而不是每个字各自闪一次。
+  // 用 offsetLeft/offsetWidth 而非 getBoundingClientRect：不受入场动画 transform 干扰。
+  function setupShimmer(){
+    const title = document.querySelector(".hero-title");
+    if (!title) return;
+    const chars = title.querySelectorAll(".ht-char");
+    if (!chars.length) return;
+
+    function apply(){
+      const tw = title.offsetWidth;
+      if (!tw) return;
+      const base = chars[0].offsetLeft;
+      title.style.setProperty("--tw", tw + "px");
+      for (let i = 0; i < chars.length; i++){
+        chars[i].style.setProperty("--bx", (base - chars[i].offsetLeft) + "px");
+      }
+      title.classList.add("shimmer-linked");
+    }
+
+    apply();
+    // 字体加载完成后字宽可能变化，重新测量
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(apply);
+    window.addEventListener("resize", apply);
+  }
+
   // ---------- 初始化 ----------
   applyStaticLang();
+  setupShimmer();
   renderCards("all");
   document.getElementById("year").textContent = new Date().getFullYear();
 

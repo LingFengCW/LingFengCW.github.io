@@ -157,11 +157,13 @@ body{
   font-size:clamp(72px,15vw,160px);font-weight:800;letter-spacing:.08em;
   margin:4px 0 16px;
   filter:drop-shadow(0 8px 22px rgba(17,130,158,.28));
+  --tw:200px;--bx:0px;
 }
 .hero-title .ht-char{
   display:inline-block;
   background:linear-gradient(110deg,var(--ling-deep),var(--ling-light),var(--ling-mid),var(--ling-deep));
-  background-size:220% 100%;
+  /* 平铺块宽 = 2 倍容器宽；keyframes 位移 200% 恰好等于一个平铺块宽，循环首尾像素重合 */
+  background-size:200% 100%;
   -webkit-background-clip:text;background-clip:text;color:transparent;
   animation:htDrop 1s cubic-bezier(.18,.7,.2,1) both,titleShimmer 6s linear infinite;
 }
@@ -171,7 +173,20 @@ body{
   60%{opacity:1;filter:blur(0)}
   100%{opacity:1;transform:translateY(0) rotate(0)}
 }
-@keyframes titleShimmer{from{background-position:0% 0}to{background-position:220% 0}}
+/* background-position 百分比换算：位移 = (容器宽 - 图宽) × 百分比
+   图宽 2W 时，0%→200% 的位移为 -2W，正好一个平铺块 → 无缝 */
+@keyframes titleShimmer{from{background-position:0% 0}to{background-position:200% 0}}
+/* 跨字连续：JS 注入 --tw（标题总宽）与 --bx（该字相对左端偏移）后启用，
+   所有字共用同一张虚拟背景，光带连续扫过整个标题；位移 --tw*2 = 一个平铺块，同样无缝 */
+.hero-title.shimmer-linked .ht-char{
+  background-size:calc(var(--tw) * 2) 100%;
+  animation:htDrop 1s cubic-bezier(.18,.7,.2,1) both,titleShimmerLinked 6s linear infinite;
+}
+.hero-title.shimmer-linked .ht-char:nth-child(2){animation-delay:.18s,0s}
+@keyframes titleShimmerLinked{
+  from{background-position:var(--bx) 0}
+  to{background-position:calc(var(--bx) - var(--tw) * 2) 0}
+}
 .hero-sub{font-size:clamp(16px,2.4vw,21px);color:var(--ink-soft);margin-bottom:32px}
 .hero-actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 .btn{
