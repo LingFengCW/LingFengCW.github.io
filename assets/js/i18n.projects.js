@@ -686,6 +686,316 @@
         "Trung tâm hợp tác đa tác tử bằng Python: các mô-đun phân lớp cho bề mặt truy cập, bề mặt quản trị và chưng cất ngữ cảnh, khám phá cơ chế lập lịch và quản trị cho sự hợp tác đồng thời của nhiều AI.",
         "Python में एक बहु-एजेंट सहयोग हब: अभिगम तल, शासन तल और संदर्भ आसवन के लिए परतदार मॉड्यूल, जो एक साथ कई AI के सहयोग हेतु अनुसूचन और शासन की खोज करता है।"
       ]
+    },
+    lingpei: {
+      type: [
+        "WPF 桌面应用", "WPF 桌面應用", "WPF Desktop App", "WPF デスクトップアプリ",
+        "WPF 데스크톱 앱", "Application de bureau WPF", "WPF-Desktop-App", "Aplicación de escritorio WPF",
+        "Aplicativo desktop WPF", "Настольное приложение WPF", "App desktop WPF", "تطبيق سطح مكتب WPF",
+        "WPF Masaüstü Uygulaması", "WPF-desktopapp", "Aplikacja desktopowa WPF", "WPF-skrivbordsapp",
+        "Aplikasi desktop WPF", "แอปเดสก์ท็อป WPF", "Ứng dụng máy tính WPF", "WPF डेस्कटॉप ऐप"
+      ],
+      desc: [
+        "从零编写的 Minecraft 启动器（WPF / .NET 10）：引擎层与界面解耦，覆盖版本解析、资源装配、Java 探测、微软登录、Modrinth 下载与启动诊断，支持自包含发布。",
+        "從零編寫的 Minecraft 啟動器（WPF / .NET 10）：引擎層與介面解耦，涵蓋版本解析、資源裝配、Java 探測、微軟登入、Modrinth 下載與啟動診斷，支援自包含發佈。",
+        "A Minecraft launcher written from scratch in WPF / .NET 10: an engine layer decoupled from the UI, covering version parsing, asset assembly, Java detection, Microsoft sign-in, Modrinth downloads and launch diagnostics, with self-contained publishing.",
+        "WPF / .NET 10 で一から書いた Minecraft ランチャー。エンジン層を UI から分離し、バージョン解析、アセット組み立て、Java 検出、Microsoft サインイン、Modrinth ダウンロード、起動診断を担い、自己完結型で配布できます。",
+        "WPF / .NET 10으로 처음부터 작성한 Minecraft 런처입니다. 엔진 계층을 UI와 분리해 버전 해석, 에셋 구성, Java 탐지, Microsoft 로그인, Modrinth 다운로드, 실행 진단을 담당하며 자체 포함 배포를 지원합니다.",
+        "Un lanceur Minecraft écrit de zéro en WPF / .NET 10 : une couche moteur découplée de l'interface, couvrant l'analyse des versions, l'assemblage des ressources, la détection de Java, la connexion Microsoft, les téléchargements Modrinth et le diagnostic de lancement, publié en version autonome.",
+        "Ein von Grund auf in WPF / .NET 10 geschriebener Minecraft-Launcher: eine von der Oberfläche entkoppelte Engine-Schicht für Versionsanalyse, Asset-Zusammenstellung, Java-Erkennung, Microsoft-Anmeldung, Modrinth-Downloads und Startdiagnose, als eigenständige Version veröffentlichbar.",
+        "Un lanzador de Minecraft escrito desde cero en WPF / .NET 10: una capa de motor desacoplada de la interfaz que cubre análisis de versiones, ensamblado de recursos, detección de Java, inicio de sesión de Microsoft, descargas de Modrinth y diagnóstico de arranque, publicado de forma autocontenida.",
+        "Um launcher de Minecraft escrito do zero em WPF / .NET 10: uma camada de motor desacoplada da interface, cobrindo análise de versões, montagem de recursos, detecção de Java, login da Microsoft, downloads do Modrinth e diagnóstico de inicialização, publicado de forma autocontida.",
+        "Лаунчер Minecraft, написанный с нуля на WPF / .NET 10: движок отделён от интерфейса и отвечает за разбор версий, сборку ресурсов, поиск Java, вход через Microsoft, загрузки с Modrinth и диагностику запуска; публикуется как самодостаточная сборка.",
+        "Un launcher per Minecraft scritto da zero in WPF / .NET 10: uno strato motore disaccoppiato dall'interfaccia che gestisce analisi delle versioni, assemblaggio delle risorse, rilevamento di Java, accesso Microsoft, download da Modrinth e diagnostica di avvio, pubblicato in versione autonoma.",
+        "مشغّل Minecraft مكتوب من الصفر بـ WPF / .NET 10: طبقة محرك منفصلة عن الواجهة تتولى تحليل الإصدارات وتجميع الموارد وكشف Java وتسجيل الدخول عبر Microsoft وتنزيلات Modrinth وتشخيص التشغيل، ويُوزَّع كحزمة مستقلة.",
+        "WPF / .NET 10 ile sıfırdan yazılmış bir Minecraft başlatıcısı: arayüzden ayrılmış motor katmanı sürüm çözümleme, varlık birleştirme, Java algılama, Microsoft oturum açma, Modrinth indirmeleri ve başlatma tanılamasını üstlenir; kendi kendine yeten paket olarak yayınlanır.",
+        "Een vanaf nul in WPF / .NET 10 geschreven Minecraft-launcher: een van de interface losgekoppelde engine-laag voor versieanalyse, samenstelling van assets, Java-detectie, Microsoft-aanmelding, Modrinth-downloads en startdiagnose, uitgebracht als zelfstandige build.",
+        "Launcher Minecrafta napisany od zera w WPF / .NET 10: warstwa silnika oddzielona od interfejsu obsługuje analizę wersji, składanie zasobów, wykrywanie Javy, logowanie Microsoft, pobieranie z Modrinth i diagnostykę uruchamiania; publikowany jako samodzielny pakiet.",
+        "En Minecraft-launcher skriven från grunden i WPF / .NET 10: ett motorlager frikopplat från gränssnittet som hanterar versionsanalys, resurssammansättning, Java-detektering, Microsoft-inloggning, Modrinth-nedladdningar och startdiagnostik, publicerad som fristående bygge.",
+        "Launcher Minecraft yang ditulis dari nol dengan WPF / .NET 10: lapisan mesin terpisah dari antarmuka, menangani penguraian versi, perakitan aset, deteksi Java, login Microsoft, unduhan Modrinth, dan diagnostik peluncuran; dirilis sebagai paket mandiri.",
+        "ตัวเรียกเกม Minecraft ที่เขียนขึ้นใหม่ทั้งหมดด้วย WPF / .NET 10 แยกชั้นเอนจินออกจากอินเทอร์เฟซ ครอบคลุมการอ่านเวอร์ชัน การประกอบแอสเซ็ต การตรวจหา Java การลงชื่อเข้าใช้ Microsoft การดาวน์โหลดจาก Modrinth และการวินิจฉัยการเปิดเกม เผยแพร่เป็นแพ็กเกจแบบครบในตัว",
+        "Trình khởi chạy Minecraft viết từ đầu bằng WPF / .NET 10: tầng engine tách khỏi giao diện, đảm nhận phân tích phiên bản, lắp ghép tài nguyên, dò Java, đăng nhập Microsoft, tải xuống Modrinth và chẩn đoán khởi chạy; phát hành dưới dạng gói tự chứa.",
+        "WPF / .NET 10 में शुरू से लिखा गया Minecraft लॉन्चर: इंजन परत इंटरफ़ेस से अलग, जो संस्करण विश्लेषण, एसेट संयोजन, Java पहचान, Microsoft साइन-इन, Modrinth डाउनलोड और लॉन्च निदान संभालती है; स्वयंपूर्ण पैकेज के रूप में जारी।"
+      ]
+    },
+    populace: {
+      type: [
+        "Web 应用", "Web 應用", "Web App", "Web アプリ",
+        "웹 앱", "Application web", "Web-App", "Aplicación web",
+        "Aplicativo web", "Веб-приложение", "App web", "تطبيق ويب",
+        "Web Uygulaması", "Webapp", "Aplikacja webowa", "Webbapp",
+        "Aplikasi web", "เว็บแอป", "Ứng dụng web", "वेब ऐप"
+      ],
+      desc: [
+        "基于 Next.js 与 SQLite 的社区资源共享平台：合集与素材管理、提案与投票、文件上传、用户主页与官方合集共建。",
+        "以 Next.js 與 SQLite 打造的社群資源共享平台：合集與素材管理、提案與投票、檔案上傳、使用者主頁與官方合集共建。",
+        "A community resource-sharing platform built on Next.js and SQLite: collections and asset management, proposals and voting, file uploads, user profiles and co-built official collections.",
+        "Next.js と SQLite によるコミュニティ資源共有プラットフォーム。コレクションと素材の管理、提案と投票、ファイルアップロード、ユーザーページ、公式コレクションの共同制作を備えます。",
+        "Next.js와 SQLite로 만든 커뮤니티 자료 공유 플랫폼입니다. 컬렉션과 자료 관리, 제안과 투표, 파일 업로드, 사용자 페이지, 공식 컬렉션 공동 제작을 지원합니다.",
+        "Une plateforme communautaire de partage de ressources sur Next.js et SQLite : gestion de collections et de ressources, propositions et votes, téléversements, profils utilisateurs et collections officielles co-construites.",
+        "Eine Community-Plattform zum Teilen von Ressourcen auf Basis von Next.js und SQLite: Verwaltung von Sammlungen und Materialien, Vorschläge und Abstimmungen, Datei-Uploads, Nutzerprofile und gemeinsam aufgebaute offizielle Sammlungen.",
+        "Una plataforma comunitaria para compartir recursos sobre Next.js y SQLite: gestión de colecciones y materiales, propuestas y votación, subida de archivos, perfiles de usuario y colecciones oficiales colaborativas.",
+        "Uma plataforma comunitária de compartilhamento de recursos em Next.js e SQLite: gestão de coleções e materiais, propostas e votação, envio de arquivos, perfis de usuário e coleções oficiais construídas em conjunto.",
+        "Платформа для обмена материалами сообщества на Next.js и SQLite: коллекции и управление материалами, предложения и голосования, загрузка файлов, профили пользователей и совместно формируемые официальные коллекции.",
+        "Una piattaforma comunitaria per condividere risorse su Next.js e SQLite: gestione di collezioni e materiali, proposte e votazioni, caricamento file, profili utente e collezioni ufficiali costruite insieme.",
+        "منصة مجتمعية لتبادل الموارد مبنية على Next.js وSQLite: إدارة المجموعات والمواد، المقترحات والتصويت، رفع الملفات، صفحات المستخدمين، وبناء المجموعات الرسمية بشكل مشترك.",
+        "Next.js ve SQLite üzerine kurulu bir topluluk kaynak paylaşım platformu: koleksiyon ve materyal yönetimi, öneriler ve oylama, dosya yükleme, kullanıcı sayfaları ve ortaklaşa oluşturulan resmî koleksiyonlar.",
+        "Een communityplatform voor het delen van bronnen op Next.js en SQLite: beheer van collecties en materialen, voorstellen en stemmingen, uploads, gebruikersprofielen en gezamenlijk opgebouwde officiële collecties.",
+        "Społecznościowa platforma wymiany zasobów na Next.js i SQLite: zarządzanie kolekcjami i materiałami, propozycje i głosowania, przesyłanie plików, profile użytkowników i wspólnie budowane oficjalne kolekcje.",
+        "En communityplattform för resursdelning byggd på Next.js och SQLite: hantering av samlingar och material, förslag och omröstningar, filuppladdningar, användarprofiler och gemensamt uppbyggda officiella samlingar.",
+        "Platform berbagi sumber daya komunitas berbasis Next.js dan SQLite: pengelolaan koleksi dan materi, proposal dan voting, unggah berkas, halaman pengguna, dan koleksi resmi yang dibangun bersama.",
+        "แพลตฟอร์มแบ่งปันทรัพยากรสำหรับชุมชนบน Next.js และ SQLite: จัดการคอลเลกชันและสื่อ เสนอและโหวต อัปโหลดไฟล์ หน้าโปรไฟล์ผู้ใช้ และคอลเลกชันทางการที่ร่วมกันสร้าง",
+        "Nền tảng chia sẻ tài nguyên cộng đồng trên Next.js và SQLite: quản lý bộ sưu tập và tư liệu, đề xuất và bình chọn, tải tệp lên, trang người dùng và các bộ sưu tập chính thức được cùng xây dựng.",
+        "Next.js और SQLite पर बना सामुदायिक संसाधन-साझाकरण मंच: संग्रह और सामग्री प्रबंधन, प्रस्ताव और मतदान, फ़ाइल अपलोड, उपयोगकर्ता प्रोफ़ाइल और साझा रूप से बनाए गए आधिकारिक संग्रह।"
+      ]
+    },
+    mapmaker: {
+      type: [
+        "单文件 Web 工具", "單檔 Web 工具", "Single-File Web Tool", "単一ファイル Web ツール",
+        "단일 파일 웹 도구", "Outil web monofichier", "Single-File-Webtool", "Herramienta web de archivo único",
+        "Ferramenta web de arquivo único", "Одностраничный веб-инструмент", "Strumento web in un unico file", "أداة ويب بملف واحد",
+        "Tek Dosyalık Web Aracı", "Webtool in één bestand", "Narzędzie webowe w jednym pliku", "Webbverktyg i en fil",
+        "Alat web satu berkas", "เครื่องมือเว็บไฟล์เดียว", "Công cụ web một tệp", "एकल-फ़ाइल वेब टूल"
+      ],
+      desc: [
+        "面向 GeoJSON 行政区划的地图出图工具：按区取色、单选全选、单区或全量导出 PNG，支持标注字体检测与高倍率导出，零外部依赖单文件运行。",
+        "面向 GeoJSON 行政區劃的地圖出圖工具：按區取色、單選全選、單區或全量匯出 PNG，支援標註字型偵測與高倍率匯出，零外部依賴單檔執行。",
+        "A map renderer for GeoJSON administrative divisions: per-region colouring, single or bulk selection, per-region or full-map PNG export, font availability checks and high-resolution output, all in one dependency-free file.",
+        "GeoJSON の行政区画向け地図出力ツール。区域ごとの色分け、単独・全選択、区域別または全体の PNG 書き出し、注記フォントの検出、高解像度出力に対応し、外部依存なしの単一ファイルで動作します。",
+        "GeoJSON 행정 구역용 지도 출력 도구입니다. 구역별 색 지정, 단일·전체 선택, 구역별 또는 전체 PNG 내보내기, 주석 글꼴 검사, 고해상도 출력을 지원하며 외부 의존성 없이 단일 파일로 실행됩니다.",
+        "Un outil de rendu cartographique pour les divisions administratives GeoJSON : coloration par région, sélection simple ou globale, export PNG par région ou complet, vérification des polices et rendu haute résolution, dans un seul fichier sans dépendance.",
+        "Ein Karten-Renderer für administrative GeoJSON-Gebiete: Farbgebung je Region, Einzel- oder Gesamtauswahl, PNG-Export je Region oder als Gesamtkarte, Prüfung verfügbarer Schriftarten und Ausgabe in hoher Auflösung – alles in einer Datei ohne Abhängigkeiten.",
+        "Una herramienta de renderizado de mapas para divisiones administrativas GeoJSON: color por región, selección individual o total, exportación PNG por región o completa, comprobación de fuentes y salida en alta resolución, en un solo archivo sin dependencias.",
+        "Uma ferramenta de renderização de mapas para divisões administrativas GeoJSON: coloração por região, seleção individual ou total, exportação PNG por região ou completa, verificação de fontes e saída em alta resolução, em um único arquivo sem dependências.",
+        "Инструмент отрисовки карт административных единиц GeoJSON: раскраска по регионам, выбор одного или всех, экспорт PNG по региону или всей карты, проверка шрифтов и вывод в высоком разрешении — всё в одном файле без зависимостей.",
+        "Uno strumento di rendering cartografico per divisioni amministrative GeoJSON: colorazione per regione, selezione singola o totale, esportazione PNG per regione o completa, verifica dei font e output ad alta risoluzione, in un unico file senza dipendenze.",
+        "أداة لرسم خرائط التقسيمات الإدارية بصيغة GeoJSON: تلوين لكل منطقة، اختيار فردي أو كلي، تصدير PNG لمنطقة واحدة أو للخريطة كاملة، فحص الخطوط وإخراج بدقة عالية، في ملف واحد دون أي تبعيات.",
+        "GeoJSON idari bölümleri için harita oluşturucu: bölge bazlı renklendirme, tekli veya toplu seçim, bölge ya da tüm harita için PNG dışa aktarma, yazı tipi denetimi ve yüksek çözünürlüklü çıktı; bağımlılığı olmayan tek dosyada çalışır.",
+        "Een kaartrenderer voor GeoJSON-bestuurlijke gebieden: kleur per regio, selectie van één of alles, PNG-export per regio of van de hele kaart, lettertypecontrole en hoge-resolutie-output, in één bestand zonder afhankelijkheden.",
+        "Narzędzie do renderowania map jednostek administracyjnych GeoJSON: kolorowanie regionów, wybór pojedynczy lub zbiorczy, eksport PNG regionu lub całej mapy, sprawdzanie czcionek i wysoka rozdzielczość — w jednym pliku bez zależności.",
+        "Ett kartrenderingsverktyg för GeoJSON-administrativa områden: färg per region, enskilt eller totalt urval, PNG-export per region eller för hela kartan, teckensnittskontroll och hög upplösning, i en enda fil utan beroenden.",
+        "Alat render peta untuk pembagian administratif GeoJSON: pewarnaan per wilayah, pilihan tunggal atau semua, ekspor PNG per wilayah atau seluruh peta, pemeriksaan font, dan keluaran resolusi tinggi, dalam satu berkas tanpa dependensi.",
+        "เครื่องมือสร้างภาพแผนที่สำหรับเขตปกครอง GeoJSON: ลงสีตามเขต เลือกทีละเขตหรือทั้งหมด ส่งออก PNG เป็นรายเขตหรือทั้งแผนที่ ตรวจสอบฟอนต์ และส่งออกความละเอียดสูง ทำงานในไฟล์เดียวโดยไม่ต้องพึ่งไลบรารีภายนอก",
+        "Công cụ kết xuất bản đồ cho đơn vị hành chính GeoJSON: tô màu theo khu vực, chọn từng vùng hoặc toàn bộ, xuất PNG theo vùng hoặc toàn bản đồ, kiểm tra phông chữ và xuất độ phân giải cao, chạy trong một tệp không phụ thuộc.",
+        "GeoJSON प्रशासनिक प्रभागों के लिए मानचित्र रेंडरर: क्षेत्र-वार रंग, एकल या सभी चयन, क्षेत्र या पूरे मानचित्र का PNG निर्यात, फ़ॉन्ट जाँच और उच्च-रिज़ॉल्यूशन आउटपुट, बिना किसी निर्भरता के एक ही फ़ाइल में।"
+      ]
+    },
+    bbsstore: {
+      type: [
+        "后端服务", "後端服務", "Backend Service", "バックエンドサービス",
+        "백엔드 서비스", "Service backend", "Backend-Dienst", "Servicio backend",
+        "Serviço de backend", "Серверная служба", "Servizio backend", "خدمة خلفية",
+        "Arka uç hizmeti", "Backenddienst", "Usługa backendowa", "Backendtjänst",
+        "Layanan backend", "บริการแบ็กเอนด์", "Dịch vụ máy chủ", "बैकएंड सेवा"
+      ],
+      desc: [
+        "BBS-N 社区商店与服务器注册后端：零依赖 Node 服务，存储用户、作品、服务器与评论，提供 scrypt 口令认证与 RSA 资源签名校验。",
+        "BBS-N 社群商店與伺服器註冊後端：零依賴 Node 服務，儲存使用者、作品、伺服器與評論，提供 scrypt 口令認證與 RSA 資源簽章驗證。",
+        "Backend for the BBS-N community store and server registry: a zero-dependency Node service storing users, works, servers and comments, with scrypt password auth and RSA resource signature verification.",
+        "BBS-N コミュニティストアとサーバー登録のバックエンド。依存ライブラリなしの Node サービスで、ユーザー・作品・サーバー・コメントを保存し、scrypt によるパスワード認証と RSA 署名検証を提供します。",
+        "BBS-N 커뮤니티 스토어와 서버 등록 백엔드입니다. 의존성 없는 Node 서비스로 사용자, 작품, 서버, 댓글을 저장하고 scrypt 비밀번호 인증과 RSA 리소스 서명 검증을 제공합니다.",
+        "Backend de la boutique communautaire et du registre de serveurs BBS-N : un service Node sans dépendance stockant utilisateurs, œuvres, serveurs et commentaires, avec authentification scrypt et vérification de signature RSA des ressources.",
+        "Backend für den BBS-N-Community-Store und das Server-Register: ein abhängigkeitsfreier Node-Dienst, der Nutzer, Werke, Server und Kommentare speichert, mit scrypt-Passwortauthentifizierung und RSA-Signaturprüfung für Ressourcen.",
+        "Backend de la tienda comunitaria y el registro de servidores de BBS-N: un servicio Node sin dependencias que almacena usuarios, obras, servidores y comentarios, con autenticación scrypt y verificación de firmas RSA de recursos.",
+        "Backend da loja comunitária e do registro de servidores do BBS-N: um serviço Node sem dependências que armazena usuários, obras, servidores e comentários, com autenticação scrypt e verificação de assinatura RSA de recursos.",
+        "Бэкенд общественного магазина и реестра серверов BBS-N: Node-служба без зависимостей, хранящая пользователей, работы, серверы и комментарии, с аутентификацией по scrypt и проверкой RSA-подписей ресурсов.",
+        "Backend dello store comunitario e del registro server di BBS-N: un servizio Node senza dipendenze che archivia utenti, opere, server e commenti, con autenticazione scrypt e verifica delle firme RSA delle risorse.",
+        "خدمة خلفية لمتجر مجتمع BBS-N وسجل الخوادم: خدمة Node بلا تبعيات تخزّن المستخدمين والأعمال والخوادم والتعليقات، مع مصادقة كلمات المرور بـ scrypt والتحقق من توقيعات RSA للموارد.",
+        "BBS-N topluluk mağazası ve sunucu kaydı için arka uç: bağımlılığı olmayan bir Node hizmeti; kullanıcıları, eserleri, sunucuları ve yorumları saklar, scrypt parola doğrulaması ve RSA kaynak imza denetimi sunar.",
+        "Backend voor de BBS-N-communitywinkel en het serverregister: een Node-dienst zonder afhankelijkheden die gebruikers, werken, servers en reacties opslaat, met scrypt-wachtwoordauthenticatie en RSA-handtekeningverificatie van bronnen.",
+        "Backend sklepu społecznościowego i rejestru serwerów BBS-N: usługa Node bez zależności, przechowująca użytkowników, prace, serwery i komentarze, z uwierzytelnianiem haseł scrypt i weryfikacją podpisów RSA zasobów.",
+        "Backend för BBS-N:s communitybutik och serverregister: en Node-tjänst utan beroenden som lagrar användare, verk, servrar och kommentarer, med scrypt-lösenordsautentisering och RSA-signaturverifiering av resurser.",
+        "Backend toko komunitas dan registri server BBS-N: layanan Node tanpa dependensi yang menyimpan pengguna, karya, server, dan komentar, dengan autentikasi kata sandi scrypt dan verifikasi tanda tangan RSA untuk sumber daya.",
+        "แบ็กเอนด์ของร้านค้าชุมชนและทะเบียนเซิร์ฟเวอร์ BBS-N: บริการ Node ที่ไม่ต้องพึ่งไลบรารีภายนอก จัดเก็บผู้ใช้ ผลงาน เซิร์ฟเวอร์ และความคิดเห็น พร้อมการยืนยันรหัสผ่านด้วย scrypt และตรวจสอบลายเซ็น RSA ของทรัพยากร",
+        "Máy chủ phụ trợ cho cửa hàng cộng đồng và danh bạ máy chủ BBS-N: dịch vụ Node không phụ thuộc, lưu người dùng, tác phẩm, máy chủ và bình luận, với xác thực mật khẩu scrypt và kiểm tra chữ ký RSA cho tài nguyên.",
+        "BBS-N सामुदायिक स्टोर और सर्वर रजिस्ट्री के लिए बैकएंड: बिना निर्भरता वाली Node सेवा जो उपयोगकर्ता, कृतियाँ, सर्वर और टिप्पणियाँ संग्रहीत करती है, scrypt पासवर्ड प्रमाणीकरण और RSA संसाधन हस्ताक्षर सत्यापन के साथ।"
+      ]
+    },
+    homework: {
+      type: [
+        "网页游戏", "網頁遊戲", "Browser Game", "ブラウザゲーム",
+        "브라우저 게임", "Jeu navigateur", "Browserspiel", "Juego de navegador",
+        "Jogo de navegador", "Браузерная игра", "Gioco per browser", "لعبة متصفح",
+        "Tarayıcı Oyunu", "Browsergame", "Gra przeglądarkowa", "Webbläsarspel",
+        "Game peramban", "เกมบนเบราว์เซอร์", "Game trình duyệt", "ब्राउज़र गेम"
+      ],
+      desc: [
+        "网页策略模拟游戏「补作业模拟器・终极国策树」：自研国策 DSL 描述时间线、分支与互斥节点，引擎驱动多路线、多结局。",
+        "網頁策略模擬遊戲「補作業模擬器・終極國策樹」：自研國策 DSL 描述時間線、分支與互斥節點，引擎驅動多路線、多結局。",
+        "A browser strategy-simulation game: a hand-built policy DSL describes timelines, branches and mutually exclusive nodes, while the engine drives multiple routes and endings.",
+        "ブラウザ向け戦略シミュレーションゲーム「宿題埋め合わせシミュレーター・究極国策ツリー」。独自の国策 DSL でタイムライン・分岐・排他ノードを記述し、エンジンが複数ルートと複数エンディングを動かします。",
+        "브라우저 전략 시뮬레이션 게임입니다. 자체 제작한 국책 DSL로 타임라인, 분기, 상호 배타 노드를 기술하고 엔진이 여러 경로와 결말을 구동합니다.",
+        "Un jeu de stratégie-simulation dans le navigateur : un DSL de politiques maison décrit chronologies, branches et nœuds mutuellement exclusifs, tandis que le moteur gère plusieurs parcours et fins.",
+        "Ein Strategie-Simulationsspiel im Browser: Eine selbst entwickelte Policy-DSL beschreibt Zeitlinien, Verzweigungen und sich ausschließende Knoten, während die Engine mehrere Routen und Enden steuert.",
+        "Un juego de estrategia y simulación para navegador: un DSL de políticas propio describe líneas de tiempo, ramas y nodos mutuamente excluyentes, mientras el motor gestiona múltiples rutas y finales.",
+        "Um jogo de estratégia e simulação no navegador: um DSL de políticas próprio descreve linhas do tempo, ramificações e nós mutuamente exclusivos, enquanto o motor conduz múltiplas rotas e finais.",
+        "Браузерная стратегия-симулятор: собственный DSL политик описывает временные линии, ветвления и взаимоисключающие узлы, а движок обеспечивает несколько маршрутов и концовок.",
+        "Un gioco di strategia e simulazione per browser: un DSL di politiche sviluppato internamente descrive linee temporali, rami e nodi mutuamente esclusivi, mentre il motore gestisce più percorsi e finali.",
+        "لعبة استراتيجية ومحاكاة في المتصفح: لغة DSL خاصة بالسياسات تصف الخطوط الزمنية والتفرعات والعقد المتنافية، بينما يدير المحرك مسارات ونهايات متعددة.",
+        "Tarayıcıda çalışan bir strateji-simülasyon oyunu: kendi geliştirdiğim politika DSL'i zaman çizgilerini, dallanmaları ve birbirini dışlayan düğümleri tanımlar; motor birden çok rotayı ve sonu yönetir.",
+        "Een strategiesimulatie in de browser: een zelfgemaakte beleids-DSL beschrijft tijdlijnen, vertakkingen en elkaar uitsluitende knooppunten, terwijl de engine meerdere routes en eindes aanstuurt.",
+        "Gra strategiczno-symulacyjna w przeglądarce: własny DSL polityk opisuje osie czasu, rozgałęzienia i wykluczające się węzły, a silnik prowadzi wiele ścieżek i zakończeń.",
+        "Ett strategi- och simuleringsspel i webbläsaren: en egenutvecklad policy-DSL beskriver tidslinjer, förgreningar och ömsesidigt uteslutande noder, medan motorn driver flera rutter och slut.",
+        "Game strategi-simulasi di peramban: DSL kebijakan buatan sendiri mendeskripsikan garis waktu, percabangan, dan simpul yang saling eksklusif, sementara mesin menjalankan banyak rute dan akhir.",
+        "เกมวางแผนและจำลองบนเบราว์เซอร์: ภาษา DSL นโยบายที่พัฒนาขึ้นเองใช้บรรยายเส้นเวลา สาขา และโหนดที่ตัดกัน ขณะที่เอนจินขับเคลื่อนหลายเส้นทางและหลายตอนจบ",
+        "Game chiến thuật mô phỏng trên trình duyệt: DSL chính sách tự phát triển mô tả dòng thời gian, nhánh rẽ và các nút loại trừ nhau, còn engine vận hành nhiều lộ trình và kết thúc.",
+        "ब्राउज़र पर एक रणनीति-सिमुलेशन गेम: स्वयं विकसित नीति DSL समयरेखाओं, शाखाओं और परस्पर अपवर्जी नोड्स का वर्णन करती है, जबकि इंजन कई मार्ग और अंत चलाता है।"
+      ]
+    },
+    biliclean: {
+      type: [
+        "命令行工具", "命令列工具", "CLI Tool", "CLI ツール",
+        "CLI 도구", "Outil en ligne de commande", "CLI-Werkzeug", "Herramienta de línea de comandos",
+        "Ferramenta de linha de comando", "Инструмент командной строки", "Strumento CLI", "أداة سطر أوامر",
+        "Komut satırı aracı", "Commandoregeltool", "Narzędzie wiersza poleceń", "Kommandoradsverktyg",
+        "Alat baris perintah", "เครื่องมือบรรทัดคำสั่ง", "Công cụ dòng lệnh", "कमांड-लाइन टूल"
+      ],
+      desc: [
+        "B 站 UP 主账号整顿工具：诊断投稿分区与垂直度，批量清理关注、收藏、动态与私信，隐藏或删除投稿；写操作默认 dry-run。",
+        "B 站 UP 主帳號整頓工具：診斷投稿分區與垂直度，批次清理關注、收藏、動態與私訊，隱藏或刪除投稿；寫入操作預設 dry-run。",
+        "A cleanup tool for Bilibili creator accounts: diagnoses upload categories and channel focus, batch-cleans follows, favourites, dynamics and private messages, and hides or deletes uploads; writes default to dry-run.",
+        "Bilibili の投稿者アカウント整理ツール。投稿の分区分布と専門性を診断し、フォロー・お気に入り・ダイナミック・DM を一括整理し、投稿を非公開または削除します。書き込み操作は既定で dry-run です。",
+        "Bilibili 크리에이터 계정 정리 도구입니다. 업로드 분야 분포와 전문성을 진단하고, 팔로우·즐겨찾기·다이내믹·쪽지를 일괄 정리하며, 업로드를 숨기거나 삭제합니다. 쓰기 작업은 기본적으로 dry-run입니다.",
+        "Un outil d'assainissement de compte créateur Bilibili : diagnostique les catégories de publications et la cohérence de la chaîne, nettoie en lot abonnements, favoris, dynamiques et messages privés, masque ou supprime des publications ; les écritures sont en mode dry-run par défaut.",
+        "Ein Aufräumwerkzeug für Bilibili-Creator-Konten: diagnostiziert Upload-Kategorien und Themenfokus, räumt Abos, Favoriten, Dynamik-Beiträge und Direktnachrichten gebündelt auf und blendet Uploads aus oder löscht sie; Schreibvorgänge sind standardmäßig Dry-Run.",
+        "Una herramienta de limpieza para cuentas de creador de Bilibili: diagnostica las categorías de publicaciones y la coherencia del canal, limpia en lote seguidos, favoritos, dinámicas y mensajes privados, y oculta o elimina publicaciones; las escrituras usan dry-run por defecto.",
+        "Uma ferramenta de limpeza para contas de criador do Bilibili: diagnostica as categorias de publicações e o foco do canal, limpa em lote seguidores, favoritos, dinâmicas e mensagens privadas, e oculta ou exclui publicações; gravações usam dry-run por padrão.",
+        "Инструмент наведения порядка в аккаунте автора Bilibili: диагностирует распределение загрузок и тематическую направленность, массово чистит подписки, избранное, динамику и личные сообщения, скрывает или удаляет публикации; записи по умолчанию выполняются в режиме dry-run.",
+        "Uno strumento di riordino per account creator di Bilibili: diagnostica le categorie dei caricamenti e la coerenza del canale, ripulisce in blocco follow, preferiti, dinamiche e messaggi privati, nasconde o elimina i caricamenti; le scritture sono in dry-run per impostazione predefinita.",
+        "أداة لتنظيم حساب منشئ محتوى على Bilibili: تشخّص أقسام المنشورات ومدى تخصص القناة، وتنظّف دفعةً واحدة المتابعات والمفضلة والديناميكيات والرسائل الخاصة، وتخفي المنشورات أو تحذفها؛ وعمليات الكتابة تُنفَّذ افتراضيًا بوضع dry-run.",
+        "Bilibili içerik üreticisi hesabı için düzenleme aracı: yüklenen içerik kategorilerini ve kanal odağını teşhis eder, takipleri, favorileri, dinamikleri ve özel mesajları toplu olarak temizler, yüklemeleri gizler veya siler; yazma işlemleri varsayılan olarak dry-run çalışır.",
+        "Een opruimtool voor Bilibili-makeraccounts: diagnosticeert uploadcategorieën en kanaalfocus, ruimt volgers, favorieten, dynamieken en privéberichten in bulk op, en verbergt of verwijdert uploads; schrijfacties draaien standaard als dry-run.",
+        "Narzędzie do porządkowania konta twórcy na Bilibili: diagnozuje kategorie publikacji i spójność kanału, masowo czyści obserwacje, ulubione, dynamiki i wiadomości prywatne oraz ukrywa lub usuwa publikacje; operacje zapisu domyślnie działają w trybie dry-run.",
+        "Ett städverktyg för Bilibili-skaparkonton: diagnostiserar uppladdningskategorier och kanalfokus, rensar följare, favoriter, dynamik och privata meddelanden i bulk samt döljer eller raderar uppladdningar; skrivningar körs som standard i dry-run.",
+        "Alat perapian akun kreator Bilibili: mendiagnosis kategori unggahan dan fokus kanal, membersihkan secara massal ikutan, favorit, dinamika, dan pesan pribadi, serta menyembunyikan atau menghapus unggahan; operasi tulis default dry-run.",
+        "เครื่องมือจัดระเบียบบัญชีครีเอเตอร์ Bilibili: วินิจฉัยหมวดหมู่วิดีโอและความเชี่ยวชาญเฉพาะทาง ล้างการติดตาม รายการโปรด ไดนามิก และข้อความส่วนตัวแบบกลุ่ม ซ่อนหรือลบวิดีโอ และการเขียนค่าจะเป็น dry-run โดยค่าเริ่มต้น",
+        "Công cụ dọn dẹp tài khoản nhà sáng tạo Bilibili: chẩn đoán phân bố chuyên mục và độ tập trung của kênh, dọn hàng loạt theo dõi, yêu thích, động thái và tin nhắn riêng, ẩn hoặc xóa video; thao tác ghi mặc định chạy dry-run.",
+        "Bilibili क्रिएटर खाते के लिए सफ़ाई टूल: अपलोड श्रेणियों और चैनल फ़ोकस का निदान करता है, फ़ॉलो, पसंदीदा, गतिविधियाँ और निजी संदेश थोक में साफ़ करता है, अपलोड छिपाता या हटाता है; लेखन क्रियाएँ डिफ़ॉल्ट रूप से dry-run में चलती हैं।"
+      ]
+    },
+    tts: {
+      type: [
+        "实验项目", "實驗專案", "Experimental Project", "実験プロジェクト",
+        "실험 프로젝트", "Projet expérimental", "Experimentelles Projekt", "Proyecto experimental",
+        "Projeto experimental", "Экспериментальный проект", "Progetto sperimentale", "مشروع تجريبي",
+        "Deneysel proje", "Experimenteel project", "Projekt eksperymentalny", "Experimentprojekt",
+        "Proyek eksperimental", "โครงการทดลอง", "Dự án thử nghiệm", "प्रायोगिक परियोजना"
+      ],
+      desc: [
+        "本地离线中文语音合成：Piper（ONNX）多音色纯 CPU 推理，另附 ChatTTS 模型，无需联网与显卡。",
+        "本地離線中文語音合成：Piper（ONNX）多音色純 CPU 推理，另附 ChatTTS 模型，無需連網與顯卡。",
+        "Offline local Chinese speech synthesis: multi-voice Piper (ONNX) inference on CPU alone, with ChatTTS models included; no network or GPU required.",
+        "ローカルで動くオフライン中国語音声合成。Piper（ONNX）を CPU のみで推論する多音声対応で、ChatTTS モデルも同梱。ネットワークも GPU も不要です。",
+        "오프라인 로컬 중국어 음성 합성입니다. Piper(ONNX)를 CPU만으로 추론하는 다중 음색을 지원하며 ChatTTS 모델도 포함되어, 네트워크나 GPU가 필요 없습니다.",
+        "Synthèse vocale chinoise locale et hors ligne : inférence Piper (ONNX) multi-voix uniquement sur CPU, modèles ChatTTS inclus ; aucun réseau ni GPU requis.",
+        "Lokale, offline arbeitende chinesische Sprachsynthese: Multi-Stimmen-Inferenz mit Piper (ONNX) rein auf der CPU, ChatTTS-Modelle inklusive; kein Netzwerk und keine GPU nötig.",
+        "Síntesis de voz china local y sin conexión: inferencia Piper (ONNX) con varias voces solo en CPU, con modelos ChatTTS incluidos; no requiere red ni GPU.",
+        "Síntese de voz chinesa local e offline: inferência Piper (ONNX) com várias vozes apenas em CPU, com modelos ChatTTS incluídos; não exige rede nem GPU.",
+        "Локальный офлайн-синтез китайской речи: многоголосый вывод Piper (ONNX) только на CPU, модели ChatTTS в комплекте; сеть и GPU не нужны.",
+        "Sintesi vocale cinese locale e offline: inferenza Piper (ONNX) multi-voce solo su CPU, con modelli ChatTTS inclusi; non richiede rete né GPU.",
+        "تركيب كلام صيني محلي دون اتصال: استدلال Piper (ONNX) بأصوات متعددة على المعالج فقط، مع نماذج ChatTTS مرفقة؛ دون حاجة إلى شبكة أو بطاقة رسوميات.",
+        "Yerel ve çevrimdışı Çince konuşma sentezi: yalnızca CPU üzerinde çok sesli Piper (ONNX) çıkarımı, ChatTTS modelleri dahil; ağ veya GPU gerekmez.",
+        "Lokale, offline Chinese spraaksynthese: Piper (ONNX)-inferentie met meerdere stemmen uitsluitend op de CPU, ChatTTS-modellen inbegrepen; geen netwerk of GPU nodig.",
+        "Lokalna, offline synteza mowy chińskiej: wielogłosowa inferencja Piper (ONNX) wyłącznie na CPU, z dołączonymi modelami ChatTTS; bez sieci i GPU.",
+        "Lokal, offline kinesisk talsyntes: Piper (ONNX)-inferens med flera röster enbart på CPU, med ChatTTS-modeller inkluderade; ingen nätverksanslutning eller GPU krävs.",
+        "Sintesis suara Mandarin lokal dan offline: inferensi Piper (ONNX) multi-suara hanya di CPU, dengan model ChatTTS disertakan; tanpa jaringan atau GPU.",
+        "การสังเคราะห์เสียงภาษาจีนแบบออฟไลน์ในเครื่อง: ประมวลผล Piper (ONNX) หลายเสียงบน CPU เพียงอย่างเดียว พร้อมโมเดล ChatTTS ไม่ต้องใช้อินเทอร์เน็ตหรือ GPU",
+        "Tổng hợp giọng nói tiếng Trung cục bộ, ngoại tuyến: suy luận Piper (ONNX) đa giọng chỉ trên CPU, kèm mô hình ChatTTS; không cần mạng hay GPU.",
+        "स्थानीय ऑफ़लाइन चीनी वाक् संश्लेषण: केवल CPU पर बहु-स्वर Piper (ONNX) अनुमान, ChatTTS मॉडल सहित; न नेटवर्क न GPU आवश्यक।"
+      ]
+    },
+    vectorizer: {
+      type: [
+        "数据处理工具", "資料處理工具", "Data Processing Tool", "データ処理ツール",
+        "데이터 처리 도구", "Outil de traitement de données", "Datenverarbeitungswerkzeug", "Herramienta de procesamiento de datos",
+        "Ferramenta de processamento de dados", "Инструмент обработки данных", "Strumento di elaborazione dati", "أداة معالجة بيانات",
+        "Veri işleme aracı", "Gegevensverwerkingstool", "Narzędzie do przetwarzania danych", "Databehandlingsverktyg",
+        "Alat pengolahan data", "เครื่องมือประมวลผลข้อมูล", "Công cụ xử lý dữ liệu", "डेटा प्रोसेसिंग टूल"
+      ],
+      desc: [
+        "位图转矢量工具：把扫描地图按色块分区，平分描边黑线、归并内部白孔，输出共边无洞的 GeoJSON。",
+        "點陣轉向量工具：把掃描地圖按色塊分區，平分描邊黑線、歸併內部白孔，輸出共邊無洞的 GeoJSON。",
+        "A raster-to-vector tool: splits a scanned map into colour regions, bisects outline strokes, absorbs interior white holes and outputs a hole-free GeoJSON with shared borders.",
+        "ラスター画像をベクター化するツール。スキャン地図を色ブロックごとに分割し、境界の黒線を等分し、内部の白い穴を最寄りの領域に統合して、共辺で穴のない GeoJSON を出力します。",
+        "래스터를 벡터로 변환하는 도구입니다. 스캔한 지도를 색상 블록별로 나누고, 경계 검은 선을 균등 분할하며, 내부 흰 구멍을 인접 영역에 병합해 공유 경계에 구멍 없는 GeoJSON을 출력합니다.",
+        "Un outil de vectorisation : découpe une carte scannée en régions de couleur, partage les traits de contour, absorbe les trous blancs intérieurs et produit un GeoJSON sans trou aux frontières partagées.",
+        "Ein Raster-zu-Vektor-Werkzeug: zerlegt eine gescannte Karte in Farbregionen, halbiert Konturlinien, ordnet innere weiße Löcher zu und erzeugt ein lückenloses GeoJSON mit gemeinsamen Kanten.",
+        "Una herramienta de rasterizado a vector: divide un mapa escaneado en regiones de color, biseca los trazos de contorno, absorbe los huecos blancos interiores y genera un GeoJSON sin huecos con bordes compartidos.",
+        "Uma ferramenta de raster para vetor: divide um mapa digitalizado em regiões de cor, divide os traços de contorno, absorve os vazios brancos internos e gera um GeoJSON sem buracos com bordas compartilhadas.",
+        "Инструмент перевода растра в вектор: разбивает скан карты на цветовые области, делит контурные линии пополам, поглощает внутренние белые пустоты и выдаёт GeoJSON без дыр с общими границами.",
+        "Uno strumento di rasterizzazione vettoriale: suddivide una mappa scansionata in regioni di colore, biseca i tratti di contorno, assorbe i vuoti bianchi interni e produce un GeoJSON senza buchi con bordi condivisi.",
+        "أداة لتحويل الصور النقطية إلى متجهات: تقسم خريطة ممسوحة إلى مناطق لونية، وتنصّف خطوط الحدود، وتدمج الفراغات البيضاء الداخلية، وتُخرج GeoJSON بلا ثقوب وبحدود مشتركة.",
+        "Rasterden vektöre dönüştürme aracı: taranmış haritayı renk bölgelerine ayırır, kontur çizgilerini ortadan böler, içteki beyaz boşlukları en yakın bölgeye katar ve ortak kenarlı, boşluksuz GeoJSON üretir.",
+        "Een raster-naar-vector-tool: splitst een gescande kaart in kleurregio's, deelt contourlijnen middendoor, neemt interne witte gaten op en levert een gatloos GeoJSON met gedeelde randen.",
+        "Narzędzie do wektoryzacji rastra: dzieli zeskanowaną mapę na regiony kolorów, dzieli linie konturowe na pół, wchłania wewnętrzne białe dziury i tworzy GeoJSON bez dziur ze wspólnymi krawędziami.",
+        "Ett raster-till-vektor-verktyg: delar en skannad karta i färgregioner, halverar konturlinjer, absorberar inre vita hål och producerar GeoJSON utan hål med delade kanter.",
+        "Alat raster-ke-vektor: membagi peta hasil pindai menjadi wilayah warna, membagi dua garis kontur, menyerap lubang putih di dalam, dan menghasilkan GeoJSON tanpa lubang dengan batas bersama.",
+        "เครื่องมือแปลงภาพราสเตอร์เป็นเวกเตอร์: แบ่งแผนที่สแกนเป็นพื้นที่สี แบ่งครึ่งเส้นขอบ กลืนช่องว่างสีขาวภายใน และส่งออก GeoJSON ที่ไม่มีรูและมีขอบร่วมกัน",
+        "Công cụ chuyển raster sang vector: chia bản đồ quét thành các vùng màu, chia đôi nét viền, gộp các lỗ trắng bên trong và xuất GeoJSON không lỗ với cạnh chung.",
+        "रास्टर-से-वेक्टर टूल: स्कैन किए गए मानचित्र को रंग क्षेत्रों में बाँटता है, रेखा-चिह्नों को आधा-आधा बाँटता है, भीतरी सफ़ेद छिद्रों को समेटता है और साझा किनारों वाला छिद्र-रहित GeoJSON देता है।"
+      ]
+    },
+    printer: {
+      type: [
+        "网页小工具", "網頁小工具", "Web Mini Tool", "Web ミニツール",
+        "웹 미니 도구", "Mini-outil web", "Web-Mini-Tool", "Mini herramienta web",
+        "Mini ferramenta web", "Мини-инструмент для веба", "Mini strumento web", "أداة ويب صغيرة",
+        "Küçük web aracı", "Webminitool", "Mini-narzędzie webowe", "Webbminiverktyg",
+        "Alat web mini", "เว็บมินิทูล", "Công cụ web nhỏ", "वेब मिनी टूल"
+      ],
+      desc: [
+        "「学校坏喷头打印机模拟器」：可调参数模拟喷头堵塞与半色调打印效果，导入即出图并支持导出。",
+        "「學校壞噴頭印表機模擬器」：可調參數模擬噴頭堵塞與半色調列印效果，匯入即出圖並支援匯出。",
+        "A printer-fault simulator: adjustable parameters reproduce clogged print heads and halftone output, rendering an image on import and exporting the result.",
+        "「学校の壊れたインクジェットプリンターシミュレーター」。パラメータを調整してノズル詰まりやハーフトーン印刷を再現し、読み込むだけで画像を生成して書き出せます。",
+        "「학교 프린터 노즐 고장 시뮬레이터」입니다. 매개변수를 조절해 노즐 막힘과 하프톤 인쇄 효과를 재현하고, 이미지를 불러오면 바로 렌더링해 내보낼 수 있습니다.",
+        "Un simulateur de panne d'imprimante : des paramètres réglables reproduisent des têtes d'impression bouchées et un rendu en demi-teintes, avec rendu à l'import et export du résultat.",
+        "Ein Druckerfehler-Simulator: einstellbare Parameter bilden verstopfte Druckköpfe und Halbtonausgabe nach, rendern das Bild beim Import und exportieren das Ergebnis.",
+        "Un simulador de fallos de impresora: parámetros ajustables reproducen cabezales obstruidos y semitono, renderizando la imagen al importarla y exportando el resultado.",
+        "Um simulador de falhas de impressora: parâmetros ajustáveis reproduzem cabeçotes entupidos e meio-tom, renderizando a imagem na importação e exportando o resultado.",
+        "Симулятор неисправного принтера: настраиваемые параметры воспроизводят засохшие печатающие головки и полутоновую печать; изображение отрисовывается при импорте и экспортируется.",
+        "Un simulatore di guasto della stampante: parametri regolabili riproducono testine ostruite e mezzitoni, renderizzando l'immagine all'importazione ed esportando il risultato.",
+        "محاكي لخلل الطابعة: معاملات قابلة للضبط تحاكي انسداد رؤوس الطباعة وإخراجًا بالألوان النصفية، مع عرض الصورة عند استيرادها وتصدير النتيجة.",
+        "Yazıcı arızası simülatörü: ayarlanabilir parametreler tıkanmış baskı kafalarını ve yarım ton çıktısını taklit eder; görsel içe aktarılınca işlenir ve sonuç dışa aktarılır.",
+        "Een printerstoring-simulator: instelbare parameters bootsen verstoptte printkoppen en halftoonuitvoer na, met directe weergave bij import en export van het resultaat.",
+        "Symulator awarii drukarki: regulowane parametry odwzorowują zatkane głowice i wydruk półtonowy, a obraz jest renderowany przy importie i eksportowany.",
+        "En skrivarfelssimulator: justerbara parametrar återskapar täppta skrivarhuvuden och halvtonsutskrift, med rendering vid import och export av resultatet.",
+        "Simulator kerusakan printer: parameter yang dapat diatur meniru kepala cetak tersumbat dan keluaran halftone, merender gambar saat diimpor dan mengekspornya.",
+        "โปรแกรมจำลองเครื่องพิมพ์หัวตัน: ปรับพารามิเตอร์เพื่อจำลองหัวพิมพ์อุดตันและการพิมพ์แบบฮาล์ฟโทน แสดงภาพทันทีที่นำเข้าและส่งออกผลลัพธ์ได้",
+        "Trình mô phỏng lỗi máy in: tham số điều chỉnh được tái hiện đầu phun bị tắc và in bán sắc, kết xuất ảnh ngay khi nhập và xuất kết quả.",
+        "प्रिंटर खराबी सिम्युलेटर: समायोज्य पैरामीटर बंद प्रिंट हेड और हाफ़टोन आउटपुट की नकल करते हैं, आयात पर छवि रेंडर होती है और परिणाम निर्यात होता है।"
+      ]
+    },
+    sounder: {
+      type: [
+        "网页小工具", "網頁小工具", "Web Mini Tool", "Web ミニツール",
+        "웹 미니 도구", "Mini-outil web", "Web-Mini-Tool", "Mini herramienta web",
+        "Mini ferramenta web", "Мини-инструмент для веба", "Mini strumento web", "أداة ويب صغيرة",
+        "Küçük web aracı", "Webminitool", "Mini-narzędzie webowe", "Webbminiverktyg",
+        "Alat web mini", "เว็บมินิทูล", "Công cụ web nhỏ", "वेब मिनी टूल"
+      ],
+      desc: [
+        "「上课声音统计器」：用麦克风采集实时分贝，按档位判定并统计吵闹次数，纯前端单文件运行。",
+        "「上課聲音統計器」：用麥克風擷取即時分貝，依檔位判定並統計吵鬧次數，純前端單檔執行。",
+        "A classroom noise monitor: captures live decibel levels from the microphone, classifies them into bands and counts noisy incidents, running as a single front-end file.",
+        "「授業中の音声統計ツール」。マイクからリアルタイムのデシベルを取得し、段階ごとに判定して騒音の回数を集計します。フロントエンドのみの単一ファイルで動作します。",
+        "「수업 소음 통계기」입니다. 마이크로 실시간 데시벨을 측정해 단계별로 판정하고 시끄러운 횟수를 집계하며, 프런트엔드 단일 파일로 실행됩니다.",
+        "Un moniteur sonore de classe : capture le niveau en décibels via le microphone, le classe par paliers et compte les épisodes bruyants, dans un seul fichier front-end.",
+        "Ein Lärmmonitor für den Unterricht: erfasst den aktuellen Dezibelpegel über das Mikrofon, ordnet ihn Stufen zu und zählt laute Vorfälle – als einzelne Frontend-Datei.",
+        "Un monitor de ruido de aula: captura el nivel de decibelios en tiempo real por micrófono, lo clasifica por tramos y cuenta los episodios ruidosos, en un único archivo de front-end.",
+        "Um monitor de ruído de sala de aula: captura o nível de decibéis em tempo real pelo microfone, classifica por faixas e conta os episódios barulhentos, em um único arquivo de front-end.",
+        "Монитор шума в классе: снимает уровень децибел с микрофона в реальном времени, делит его по диапазонам и считает шумные эпизоды; работает одним фронтенд-файлом.",
+        "Un monitor del rumore in classe: rileva i decibel in tempo reale dal microfono, li classifica per fasce e conta gli episodi rumorosi, in un unico file front-end.",
+        "مراقب ضوضاء الصف: يلتقط مستوى الديسيبل لحظيًا من الميكروفون، ويصنّفه إلى نطاقات، ويحصي حالات الضجيج، ويعمل كملف واجهة أمامية واحد.",
+        "Sınıf gürültü ölçer: mikrofondan gerçek zamanlı desibel alır, bunları aralıklara ayırır ve gürültülü olayları sayar; tek bir ön uç dosyası olarak çalışır.",
+        "Een geluidsmeter voor het klaslokaal: meet live het decibelniveau via de microfoon, deelt het in banden in en telt lawaaierige momenten, als één front-end-bestand.",
+        "Monitor hałasu w klasie: mierzy na żywo poziom decybeli z mikrofonu, klasyfikuje go w przedziałach i zlicza głośne zdarzenia; działa jako pojedynczy plik front-endu.",
+        "En ljudmätare för klassrummet: fångar decibelnivån live från mikrofonen, delar in den i nivåer och räknar bullriga tillfällen, som en enda front-end-fil.",
+        "Pemantau kebisingan kelas: menangkap tingkat desibel langsung dari mikrofon, mengklasifikasikannya ke dalam rentang, dan menghitung kejadian berisik, berjalan sebagai satu berkas front-end.",
+        "เครื่องวัดเสียงในห้องเรียน: เก็บระดับเดซิเบลแบบเรียลไทม์จากไมโครโฟน แบ่งช่วงระดับเสียง และนับจำนวนครั้งที่เสียงดัง ทำงานเป็นไฟล์ฟรอนต์เอนด์ไฟล์เดียว",
+        "Máy đo tiếng ồn lớp học: thu mức decibel trực tiếp từ micro, phân loại theo ngưỡng và đếm số lần ồn ào, chạy dưới dạng một tệp front-end duy nhất.",
+        "कक्षा शोर मॉनिटर: माइक्रोफ़ोन से लाइव डेसिबल स्तर लेता है, उसे श्रेणियों में बाँटता है और शोर की घटनाएँ गिनता है; एक ही फ़्रंट-एंड फ़ाइल में चलता है।"
+      ]
     }
   };
 })();

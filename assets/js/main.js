@@ -94,6 +94,46 @@
     {
       id: "macohub", glyph: "治", name: "泠治", en: "MACO Hub · Multi-Agent Collaboration Hub", cat: "exp", status: "exp",
       tags: ["Python", "Multi-Agent", "LLM"], url: null
+    },
+    {
+      id: "lingpei", glyph: "沛", name: "泠沛", en: "LingPei Launcher", cat: "app", status: "dev",
+      tags: ["C#", ".NET 10", "WPF", "Minecraft"], url: null
+    },
+    {
+      id: "populace", glyph: "衍", name: "泠衍", en: "Population Hub", cat: "app", status: "dev",
+      tags: ["Next.js", "React", "TypeScript", "SQLite"], url: null
+    },
+    {
+      id: "mapmaker", glyph: "渲", name: "泠渲", en: "Map Image Maker", cat: "tool", status: "dev",
+      tags: ["JavaScript", "Canvas", "GeoJSON", "PNG"], url: null
+    },
+    {
+      id: "bbsstore", glyph: "沽", name: "泠沽", en: "BBS-N Store Backend", cat: "tool", status: "dev",
+      tags: ["Node.js", "Zero-Dependency", "RSA", "JSON"], url: null
+    },
+    {
+      id: "homework", glyph: "溯", name: "泠溯", en: "Homework Simulator · Policy Tree", cat: "game", status: "exp",
+      tags: ["JavaScript", "DSL", "Canvas", "Game"], url: null
+    },
+    {
+      id: "biliclean", glyph: "涤", name: "泠涤", en: "Bili Account Manager", cat: "tool", status: "dev",
+      tags: ["Python", "bilibili-api", "CLI"], url: null
+    },
+    {
+      id: "tts", glyph: "涛", name: "泠涛", en: "Local TTS", cat: "exp", status: "exp",
+      tags: ["Python", "Piper", "ONNX", "TTS"], url: null
+    },
+    {
+      id: "vectorizer", glyph: "浚", name: "泠浚", en: "Map Vectorizer", cat: "tool", status: "exp",
+      tags: ["Python", "Shapely", "GeoJSON", "NumPy"], url: null
+    },
+    {
+      id: "printer", glyph: "洒", name: "泠洒", en: "Printer Simulator", cat: "tool", status: "exp",
+      tags: ["HTML", "Canvas", "JavaScript"], url: null
+    },
+    {
+      id: "sounder", glyph: "测", name: "泠测", en: "Classroom Sound Monitor", cat: "tool", status: "exp",
+      tags: ["Web Audio", "JavaScript", "HTML"], url: null
     }
   ];
 
